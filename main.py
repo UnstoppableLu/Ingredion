@@ -1,3 +1,5 @@
+import logging
+
 from IPython import display
 from pydantic import BaseModel, Field
 from rich import print
@@ -6,7 +8,7 @@ from typing import Optional, List
 from docling.datamodel.base_models import InputFormat
 from docling.document_extractor import DocumentExtractor
 
-
+'''
 class EmissionTarget(BaseModel):
     scope_name: str = Field(
         examples=["Scope 1 and 2", "Total Scope 3", "Total Scope 3 FLAG", "Total Scope 3 E&I"]
@@ -57,14 +59,24 @@ class SustainabilityTargets(BaseModel):
     scaling_innovation_gap_percent: Optional[float] = Field(default=22.0, examples=[22.0])
     total_contribution_percent: Optional[float] = Field(default=100.0, examples=[100.0])
     notes: SummaryNotes = Field(default=SummaryNotes())
+'''
+
+#file_path = "../../OneDrive/Documents/Rutgers/Fall 2025/Extern Experience I/UnileverTest2024.pdf"
+
+file_path = (
+    "https://upload.wikimedia.org/wikipedia/commons/9/9f/Swiss_QR-Bill_example.jpg"
+)
 
 
-file_path = "../../OneDrive/Documents/Rutgers/Fall 2025/Extern Experience I/UnileverTest2024.pdf"
+logging.basicConfig(level = logging.INFO)
 
 extractor = DocumentExtractor(allowed_formats=[InputFormat.PDF, InputFormat.IMAGE])
 
 result = extractor.extract(
     source = file_path,
-    template= SustainabilityTargets()
+    template = {
+        "bill_no": "string",
+        "total": "float"
+    },
 )
-print(result.summary())
+print(result.pages)
