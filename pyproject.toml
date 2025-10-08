@@ -1,0 +1,10 @@
+[project]
+name = "ingredionpdfparse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "docling[vml]>=2.55.1",
+    "ipython>=8.37.0",
+]
