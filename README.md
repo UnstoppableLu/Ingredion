@@ -3,7 +3,7 @@
 
 The objective of this project is to automate the extraction of sustainability and ESG (Environmental, Social, and Governance) data from company reports—typically published as unstructured PDF documents. These reports often contain valuable quantitative metrics (e.g., greenhouse gas emissions, renewable energy usage, water consumption, and workforce diversity), but extracting them manually is time-consuming and error-prone.
 
-This notebook demonstrates a data extraction pipeline that converts unstructured sustainability reports into structured, machine-readable datasets, enabling further analysis, comparison, and visualization.
+This repository contains a data extraction pipeline that converts unstructured sustainability reports into structured, machine-readable datasets, enabling further analysis, comparison, and visualization.
 
 # Challenges
 
@@ -33,3 +33,4 @@ Pandas:	Normalizes, cleans, and aggregates the extracted metrics into a structur
 # Outcome
 
 The final output is a structured dataset (in Excel format) containing key sustainability indicators extracted from the report, along with contextual information such as metric category, units, and description. This pipeline streamlines ESG data collection and enables scalable sustainability analytics across multiple companies.
+
