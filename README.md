@@ -26,11 +26,12 @@ Key metrics may appear in different sections—environmental, social, or governa
 To overcome these challenges, the following tools and frameworks were integrated into the workflow:
 
 ### Tool & Purpose
-PyMuPDF (fitz):	Extracts raw text content from PDF files while preserving basic structure and layout.
-LangChain:	Manages document chunking, prompt orchestration, and communication with the language model for contextual analysis.
-Gemini API (Google Generative AI):	Performs semantic understanding of extracted text, identifying and structuring sustainability metrics in tabular JSON format.
-Pandas:	Normalizes, cleans, and aggregates the extracted metrics into a structured DataFrame for analysis and export.
++ PyMuPDF (fitz):	Extracts raw text content from PDF files while preserving basic structure and layout.
++ LangChain:	Manages document chunking, prompt orchestration, and communication with the language model for contextual analysis.
++ Gemini API (Google Generative AI):	Performs semantic understanding of extracted text, identifying and structuring sustainability metrics in tabular JSON format.
++ Pandas:	Normalizes, cleans, and aggregates the extracted metrics into a structured DataFrame for analysis and export.
 # Outcome
 
 The final output is a structured dataset (in Excel format) containing key sustainability indicators extracted from the report, along with contextual information such as metric category, units, and description. This pipeline streamlines ESG data collection and enables scalable sustainability analytics across multiple companies.
+
 
