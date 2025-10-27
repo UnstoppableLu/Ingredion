@@ -1,7 +1,7 @@
 import os
 from typing import List, Dict
 from langchain_core.messages import HumanMessage
-from langchain_google_gemini import ChatGoogleGemini
+from langchain_google_genai import ChatGoogleGenAI
 
 class MetricsExtractor:
     def __init__(self, api_key: str = None):
@@ -10,7 +10,7 @@ class MetricsExtractor:
             if not api_key:
                 raise ValueError("Google API key not found. Please set GOOGLE_API_KEY environment variable.")
         
-        self.llm = ChatGoogleGemini(google_api_key=api_key, temperature=0.1)
+    self.llm = ChatGoogleGenAI(google_api_key=api_key, temperature=0.1)
     
     def extract_metrics(self, text_chunks: List[str]) -> Dict:
         """Extract sustainability metrics from text chunks using Gemini API."""
