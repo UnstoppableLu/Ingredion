@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import json
 from datetime import datetime
 from pathlib import Path
 
@@ -63,12 +64,22 @@ def main():
                 # Save results
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                 output_path = Path("data/extracted_results") / f"{uploaded_file.name}_{timestamp}.json"
+                excel_path = Path("data/extracted_results") / f"{uploaded_file.name}_{timestamp}.xlsx"
                 output_path.parent.mkdir(parents=True, exist_ok=True)
-                
+
                 with open(output_path, "w") as f:
-                    st.json.dump(formatted_metrics, f, indent=2)
-                
-                st.success(f"Results saved to {output_path}")
+                    json.dump(formatted_metrics, f, indent=2)
+
+                # Save as Excel file
+                import pandas as pd
+                # If metrics is a dict of dicts, convert to DataFrame
+                if isinstance(formatted_metrics, dict):
+                    df = pd.DataFrame([formatted_metrics]) if not any(isinstance(v, dict) for v in formatted_metrics.values()) else pd.DataFrame(formatted_metrics).T
+                else:
+                    df = pd.DataFrame(formatted_metrics)
+                df.to_excel(excel_path, index=False)
+
+                st.success(f"Results saved to {output_path} and {excel_path}")
         
         except Exception as e:
             st.error(f"Error processing file: {str(e)}")

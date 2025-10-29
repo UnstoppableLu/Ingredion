@@ -1,6 +1,6 @@
 from typing import List, Dict
 from PyPDF2 import PdfReader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 class PDFParser:
     def __init__(self, chunk_size: int = 4000, chunk_overlap: int = 200):
