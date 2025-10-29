@@ -1,53 +1,57 @@
-import os
+from google import genai
+import os, json
 from typing import List, Dict
-from langchain_core.messages import HumanMessage
-from langchain_google_genai import ChatGoogleGenerativeAI
+import re
 
 class MetricsExtractor:
     def __init__(self, api_key: str = None):
         if api_key is None:
-            api_key = os.getenv('GOOGLE_API_KEY')
-            if not api_key:
-                raise ValueError("Google API key not found. Please set GOOGLE_API_KEY environment variable.")
-        self.llm = ChatGoogleGenerativeAI(
-            google_api_key=api_key,
-            model="gemini-2.5-pro",
-            temperature=0.1
-        )
-    
+            api_key = os.getenv("GOOGLE_API_KEY")
+        if not api_key:
+            raise ValueError("Google API key not found. Please set GOOGLE_API_KEY.")
+        self.client = genai.Client(api_key=api_key)
+
     def extract_metrics(self, text_chunks: List[str]) -> Dict:
-        """Extract sustainability metrics from text chunks using Gemini API."""
-        metrics = {}
-        
-        # Base prompt for metric extraction
         base_prompt = """
-        Extract sustainability metrics from the following text. Focus on:
-        1. Environmental metrics (e.g., CO2 emissions, water usage, energy consumption)
-        2. Social metrics (e.g., employee diversity, safety records)
-        3. Governance metrics (e.g., board diversity, ethical standards)
-        
-        Format the output as a structured JSON with metric name, value, unit, and year.
-        
+        You are an ESG data extraction assistant.
+        Extract sustainability metrics from the text and return a **valid JSON array**.
+        Each entry should have:
+          - metric_name
+          - value
+          - unit
+          - year
+          - category (Environmental, Social, Governance)
+        Do NOT include any explanations, markdown, or code fences. Return strictly JSON.
+
         Text:
         {text}
         """
-        
-        try:
-            for chunk in text_chunks:
-                response = self.llm.invoke([
-                    HumanMessage(content=base_prompt.format(text=chunk))
-                ])
-                
-                # Parse and merge metrics from each chunk
-                chunk_metrics = self._parse_response(response.content)
-                metrics.update(chunk_metrics)
-            
-            return metrics
-        except Exception as e:
-            raise Exception(f"Error extracting metrics: {str(e)}")
-    
-    def _parse_response(self, response: str) -> Dict:
-        """Parse the LLM response and convert to structured format."""
-        # Implement response parsing logic here
-        # This is a placeholder - actual implementation would depend on the response format
-        return {}
+
+        all_metrics = []
+        for chunk in text_chunks:
+            response = self.client.models.generate_content(
+                model="gemini-2.5-pro",  # ✅ use 2.5 here
+                contents=base_prompt.format(text=chunk)
+            )
+
+            print("Raw Gemini 2.5 response:", response.text)
+            raw_text = response.text.strip()
+            try:
+                parsed = json.loads(raw_text)
+                if isinstance(parsed, list):
+                    all_metrics.extend(parsed)
+                else:
+                    all_metrics.append(parsed)
+            except json.JSONDecodeError:
+                # fallback: try extracting JSON portion from any stray text
+                match = re.search(r'(\[.*\]|\{.*\})', raw_text, re.DOTALL)
+                if match:
+                    parsed = json.loads(match.group())
+                    if isinstance(parsed, list):
+                        all_metrics.extend(parsed)
+                    else:
+                        all_metrics.append(parsed)
+                else:
+                    # store raw text if parsing fails
+                    all_metrics.append({"raw_output": raw_text})
+        return all_metrics
