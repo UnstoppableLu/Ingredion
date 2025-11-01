@@ -1,0 +1,13 @@
+metric,value,category
+"Carbon Emissions (Scopes 1, 2 and Biogenic)",-22%,Environmental
+Carbon Emissions (Scope 3),-3%,Environmental
+Renewable Energy,25%,Environmental
+Water Use Intensity*,-2%,Environmental
+Waste to Landfill Avoidance,88%,Environmental
+Wastewater COD Intensity,1%,Environmental
+Scope 1 Emissions,"1,897,186 metric tons",Environmental
+Scope 2 Emissions,"673,973 metric tons",Environmental
+Biogenic Emissions*,"26,507 metric tons",Environmental
+Scope 3 Emissions,"10,201,373 metric tons",Environmental
+Water Use: Global,"49,046,105 cubic meters",Environmental
+Solid Waste,"277,346 metric tons",Environmental

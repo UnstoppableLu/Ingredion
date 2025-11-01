@@ -1,0 +1,30 @@
+[
+  {
+    "metric_name": "Target cropland for conservation practices partnership",
+    "value": 20000,
+    "unit": "acres",
+    "year": 2021,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Net-zero emissions commitment",
+    "value": 2040,
+    "unit": "year",
+    "year": 2040,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Regenerative farming practices adoption target",
+    "value": 7000000,
+    "unit": "acres",
+    "year": 2030,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Planned cropland expansion for conservation practices",
+    "value": 100000,
+    "unit": "acres",
+    "year": 2021,
+    "category": "Environmental"
+  }
+]
