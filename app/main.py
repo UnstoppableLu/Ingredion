@@ -8,6 +8,7 @@ import re
 import time
 
 from extractor.pdf_splitter import split_pdf  # ✅ Import your PDF splitting helper
+from extractor.compare_metrics import compare_metrics_page
 
 
 # ------------------------------------------------------------
@@ -25,6 +26,21 @@ with st.sidebar:
     pages_per_part = st.number_input("Pages per part", min_value=2, max_value=20, value=5)
     if api_key:
         os.environ["GOOGLE_API_KEY"] = api_key
+        
+# In main(), or at the top of your Streamlit app
+page = st.sidebar.selectbox(
+    "Choose a page",
+    ["Extract ESG Metrics", "Compare ESG Metrics"]
+)
+
+if page == "Extract ESG Metrics":
+    # Your existing extraction logic
+    st.title("🌱 Sustainability Report Metrics Extractor")
+    # ... rest of your extraction code ...
+
+elif page == "Compare ESG Metrics":
+    # Call the compare_metrics_page function
+    compare_metrics_page()
 
 
 # ------------------------------------------------------------

@@ -1,0 +1,584 @@
+[
+  {
+    "common_metric": "GHG Emissions (Scopes 1 & 2)",
+    "dataset_1": [
+      {
+        "metric": "Reduction in absolute Scopes 1 and 2 GHG emissions",
+        "value": "28%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scopes 1, 2 and Biogenic)",
+        "value": "-22%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 Emissions",
+        "value": "1,897,186 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 2 Emissions",
+        "value": "673,973 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "reduction in the company's global carbon footprint",
+        "value": "8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "reduction CO2 by the Guadalajara plant",
+        "value": "3400 MT",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Direct (Scope 1) GHG emissions",
+        "value": "2023 CDP Climate Change; 2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Energy indirect (Scope 2) GHG emissions",
+        "value": "2023 CDP Climate Change; 2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG emission intensity",
+        "value": "2023 CDP Climate Change",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reductions of GHG emissions",
+        "value": "2023 CDP Climate Change; 2023 Sustainability Update",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1, Scope 2 and, if appropriate, Scope 3 greenhouse gas emissions",
+        "value": "2023 CDP Climate Report (C6)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Purchased energy (Scope 2) emissions",
+        "value": "2023 CDP Climate Report (C4.1a)",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Scope 1 and 2 greenhouse gas emissions reduction against 2022 baseline",
+        "value": "18%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1, 2 and 3 emission reduction targets",
+        "value": "Aligned to a 1.5\u00b0C trajectory",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Net-zero emissions target year",
+        "value": "2050",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Net-zero emissions target",
+        "value": "2050 or sooner",
+        "category": "Environmental"
+      },
+      {
+        "metric": "50% reduction in Scope 1 and 2 emissions",
+        "value": "2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 and 2 emissions reduction",
+        "value": "13%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in Scope 1 and 2 emissions",
+        "value": "18%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "GHG Emissions (Scope 3)",
+    "dataset_1": [
+      {
+        "metric": "Reduction in absolute Scope 3 GHG emissions",
+        "value": "15%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scope 3)",
+        "value": "-3%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 Emissions",
+        "value": "10,201,373 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Other indirect (Scope 3) GHG emissions",
+        "value": "2023 CDP Climate Change",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1, Scope 2 and, if appropriate, Scope 3 greenhouse gas emissions",
+        "value": "2023 CDP Climate Report (C6)",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "30% reduction in Scope 3 Forest, Land and Agriculture (FLAG) emissions",
+        "value": "2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "42% reduction in Scope 3 Energy and Industry (E&I) emissions",
+        "value": "2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 Forest, Land and Agriculture (FLAG) emissions reduction",
+        "value": "7%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 Energy and Industry emissions reduction",
+        "value": "8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in Scope 3 Energy & Industry emissions",
+        "value": "12%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in Scope 3 Forest, Land and Agriculture (FLAG) emissions",
+        "value": "7%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Renewable Energy Consumption",
+    "dataset_1": [
+      {
+        "metric": "Renewable Energy",
+        "value": "25%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Purchased electricity from renewable sources",
+        "value": "25%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Use of produced biogas",
+        "value": "70%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable electricity as percentage of global purchased electricity",
+        "value": "25%",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Direct global electricity needs met with renewable electricity",
+        "value": "89%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Direct global electricity needs met with renewable electricity",
+        "value": "approximately 3,900 GWh",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable electricity",
+        "value": "100% in U.S. direct operations",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable electricity in North American foods fleet",
+        "value": "~80%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Countries using 100% renewable electricity",
+        "value": "39",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable electricity in company-owned operations",
+        "value": "89%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Water Use, Efficiency, and Stewardship",
+    "dataset_1": [
+      {
+        "metric": "Water use intensity reduction in extremely high-stress geographies",
+        "value": "30%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water conservation projects with growers in extremely high water stressed sourcing geographies",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Programs to support local water conservation",
+        "value": "100% of extremely high water stress communities",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use Intensity*",
+        "value": "-2%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use: Global",
+        "value": "49,046,105 cubic meters",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in water intensity (Mexico)",
+        "value": "2%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Improvement in water intensity over prior year (Mexico)",
+        "value": "4%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in water intensity (Pakistan)",
+        "value": "26%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water withdrawal by source",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water recycled and reused",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total water-withdrawal and total water consumed",
+        "value": "2023 CDP Water Report (W1.2b)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percent of water withdrawn and consumed in regions with high or extremely high baseline water stress",
+        "value": "2023 CDP Water Report (W1.2d)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of company-owned production sites in regions with high or extremely high baseline water stress",
+        "value": "2023 CDP Water Report (W4.1b, W4.2)",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Operational water-use efficiency",
+        "value": "25% improvement in high water-risk areas (measured against a 2015 baseline)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agricultural water-use efficiency",
+        "value": "15% improvement (reaching 22% when compared to a 2015 baseline) in high water-risk watersheds",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agricultural water-use efficiency in high water-risk watersheds",
+        "value": "22% improvement",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Replenished water",
+        "value": "~75%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Replenished water",
+        "value": "-24B liters",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water-use efficiency ratio in beverages sites",
+        "value": "1.7 liters/liter",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water-use efficiency ratio in convenient foods sites",
+        "value": "2.23 liters/kg",
+        "category": "Environmental"
+      },
+      {
+        "metric": "2030 Local watershed replenishment goal",
+        "value": "Replenish back into the watershed 100% of the water we use in high water-risk PepsiCo and franchise bottler manufacturing facilities by 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "2025 local watershed replenishment goal",
+        "value": "Achieve 100% water replenishment at company-owned facilities designated in high water-risk areas by 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "People reached with safe water since 2010",
+        "value": ">96M",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Average water-use efficiency ratio in high water-risk beverages sites (liters/liter)",
+        "value": "1.7",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Average water-use efficiency ratio in high water-risk convenient foods sites (liters/kg)",
+        "value": "2.2",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water replenishment at company-owned facilities designated in high water-risk areas",
+        "value": "86%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Replenishment back into the watershed of water used in high water-risk PepsiCo and franchise bottler manufacturing facilities",
+        "value": "75%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Waste & Packaging Management",
+    "dataset_1": [
+      {
+        "metric": "Waste avoidance to landfill",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste to Landfill Avoidance",
+        "value": "88%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Solid Waste",
+        "value": "277,346 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total company waste diverted from landfill/incineration",
+        "value": "88%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Recycled input materials used",
+        "value": "This information is not currently collected at the corporate level.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reclaimed products and their packaging material",
+        "value": "This information is not currently collected at the corporate level within Ingredion.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total weight of waste generated",
+        "value": "2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste diverted from landfill",
+        "value": "2023 Sustainability Report",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Reusable, recyclable, or compostable (RRC) packaging by design (primary and secondary)",
+        "value": "93%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Virgin plastics reduction",
+        "value": "5%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Recycled plastic",
+        "value": "15%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "2030 Virgin plastic reduction (tonnage) goal",
+        "value": "2% Reduction",
+        "category": "Environmental"
+      },
+      {
+        "metric": "2035 recycled content goal",
+        "value": "40%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "2030 Reusable, recyclable or compostable (RRC) goal",
+        "value": "\u226597%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in absolute tonnage of virgin plastics",
+        "value": "5%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Recycled content in plastic packaging",
+        "value": "15%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reusable, recyclable, or compostable (RRC) packaging by design",
+        "value": "93%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Sustainable Sourcing & Regenerative Agriculture",
+    "dataset_1": [
+      {
+        "metric": "Global waxy corn supply sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 priority crops sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 and 2 priority crops sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable sourcing of Tier 1 crops",
+        "value": "66%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres of crops in regenerative programs",
+        "value": "74,000 acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 priority crops sustainably sourced",
+        "value": "66.8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "global waxy corn sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres under regenerative agriculture programs",
+        "value": "74,000",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation identified by FSA in Brazil",
+        "value": "NO",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainably sourced Tier 1 priority crops",
+        "value": "100% by 2025",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Acres where regenerative, restorative or protective practices have been adopted",
+        "value": "more than 3.5 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres driving regenerative, restorative or protective practices by 2030",
+        "value": "10 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Regenerative agriculture practices spread",
+        "value": "7 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Adoption of regenerative agriculture practices",
+        "value": "10 million acres by 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Crops using regenerative, restorative or protective practices",
+        "value": ">3.5 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Adoption of regenerative agriculture, restorative, or protective practices",
+        "value": "more than 3.5 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainably sourced key ingredients",
+        "value": "approximately 66%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Regenerative agriculture goal",
+        "value": "10 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainably sourced",
+        "value": "66%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Key Ingredients sustainably sourced by 2030",
+        "value": "90%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Adoption of regenerative agriculture practices",
+        "value": ">3.5 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainably sourced key ingredients",
+        "value": "~66%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation-free sourcing",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation- and conversion-free sourcing",
+        "value": null,
+        "category": "Environmental"
+      }
+    ]
+  }
+]
