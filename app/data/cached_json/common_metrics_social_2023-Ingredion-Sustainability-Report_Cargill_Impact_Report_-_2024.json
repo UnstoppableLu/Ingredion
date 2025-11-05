@@ -1,0 +1,805 @@
+[
+  {
+    "common_metric": "Employee Health and Safety",
+    "dataset_1": [
+      {
+        "metric": "Employee and contractor TRIR",
+        "value": "0.18",
+        "category": "Social"
+      },
+      {
+        "metric": "Employee and contractor TRIR",
+        "value": "0.15",
+        "category": "Social"
+      },
+      {
+        "metric": "Workers representation in formal joint management-worker health and safety committees",
+        "value": "All Ingredion manufacturing facilities have health and safety committees made up of workers and members of the local management team. The exact make-up of these teams may differ by location and be dictated by local law and/or collective bargaining agreement.",
+        "category": "Social"
+      },
+      {
+        "metric": "Types of injuries and rates of injury, occupational disease, lost days and absenteeism and the number of work-related fatalities",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      },
+      {
+        "metric": "Workers with high incidence or high risk of disease related to their occupation",
+        "value": "Ingredion has identified no such high-risk groups within the organization.",
+        "category": "Social"
+      },
+      {
+        "metric": "Health and safety topics covered in formal agreements with trade unions",
+        "value": "A variety of health and safety topics may be covered in formal agreements with various trade unions across our global operations.",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Reportable Injury Frequency Rate (RIFR)",
+        "value": "1.35",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Gender Diversity and Equality in the Workforce",
+    "dataset_1": [
+      {
+        "metric": "Women Representation of Global Employees at All Levels",
+        "value": "25.1%",
+        "category": "Social"
+      },
+      {
+        "metric": "Women Representation of Global Employees (Manager and Above)",
+        "value": "37.1%",
+        "category": "Social"
+      },
+      {
+        "metric": "Women Representation of Global Employees (Director and Above)",
+        "value": "32.3%",
+        "category": "Social"
+      },
+      {
+        "metric": "Women Representation of Global Employees (Executive and Above)",
+        "value": "20.8%",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Leadership roles filled by women",
+        "value": "35.7%",
+        "category": "Social"
+      },
+      {
+        "metric": "Achieve gender parity in leadership by 2030 globally",
+        "value": "35.7%",
+        "category": "Social"
+      },
+      {
+        "metric": "91.4% of Cargill facilities",
+        "value": "gender-inclusive uniform options",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Racial and Ethnic Diversity and Equity",
+    "dataset_1": [
+      {
+        "metric": "Racial and Ethnic Breakdown of US Employees (Manager and above)",
+        "value": "29.6%",
+        "category": "Social"
+      },
+      {
+        "metric": "Total BIPOC of US Employees (Manager and above)",
+        "value": "29.6%",
+        "category": "Social"
+      },
+      {
+        "metric": "Asian of US Employees (Manager and above)",
+        "value": "11%",
+        "category": "Social"
+      },
+      {
+        "metric": "Black of US Employees (Manager and above)",
+        "value": "5.5%",
+        "category": "Social"
+      },
+      {
+        "metric": "Hispanic/LatinX of US Employees (Manager and above)",
+        "value": "11.5%",
+        "category": "Social"
+      },
+      {
+        "metric": "Other of US Employees (Manager and above)",
+        "value": "1.6%",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "760 scholarships",
+        "value": "$3 million",
+        "category": "Social"
+      },
+      {
+        "metric": "23 THRIVE scholars at Alcorn",
+        "value": "83% placement rate",
+        "category": "Social"
+      },
+      {
+        "metric": "Funded seven new university Minorities in Agriculture, Natural Resources, and Related Sciences (MANRRS) chapters along with 30 Junior MANRRS chapters",
+        "value": null,
+        "category": "Social"
+      },
+      {
+        "metric": "33% U.S. minority hires",
+        "value": "highest percentage to date",
+        "category": "Social"
+      },
+      {
+        "metric": "570 scholarships",
+        "value": null,
+        "category": "Social"
+      },
+      {
+        "metric": "MOVER Initiative",
+        "value": "10,000 Black leaders by 2030",
+        "category": "Social"
+      },
+      {
+        "metric": "MOVER Initiative",
+        "value": "3 million black professionals with courses, training, and business opportunities",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Human Rights Due Diligence in the Supply Chain",
+    "dataset_1": [
+      {
+        "metric": "Agricultural supply chain assessed for human rights protection practices",
+        "value": "100%",
+        "category": "Social"
+      },
+      {
+        "metric": "Suppliers meeting high-risk criteria audited for human rights",
+        "value": "100%",
+        "category": "Social"
+      },
+      {
+        "metric": "Operations and suppliers in which the right to freedom of association and collective bargaining may be at risk",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      },
+      {
+        "metric": "Operations and suppliers at significant risk for child labor",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      },
+      {
+        "metric": "Operations and suppliers at significant risk for forced or compulsory labor",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      },
+      {
+        "metric": "Security personnel trained in human rights policies or procedures",
+        "value": "This information is not currently tracked at the corporate level.",
+        "category": "Social"
+      },
+      {
+        "metric": "Operations that have been subject to human rights reviews or impact assessments",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      },
+      {
+        "metric": "Employee training on human rights policies or procedures",
+        "value": "Ingredion has implemented an internal Social Accountability Management System, which outlines our human rights practices and includes associated training. Additionally, all employees are trained on Ingredion's Code of Conduct, which includes our policy on Human Rights.",
+        "category": "Social"
+      },
+      {
+        "metric": "Significant investment agreements and contracts that include human rights clauses or that underwent human rights screening",
+        "value": "These agreements or contracts may be managed at the local, regional or corporate level. This information is not currently tracked at the corporate level.",
+        "category": "Social"
+      },
+      {
+        "metric": "New suppliers that were screened using social criteria",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Supplier Code of Conduct",
+        "value": "Broadened to include suppliers, farmers, producers, manufacturers, and other business partners",
+        "category": "Social"
+      },
+      {
+        "metric": "# of farmer organizations covered by a Child Labor Monitoring and Remediation Systems (CLMRS) or comparable due diligence system to prevent and address child labor",
+        "value": "178",
+        "category": "Social"
+      },
+      {
+        "metric": "# and % of farmers monitored through CLMRS",
+        "value": "101,130, 62%",
+        "category": "Social"
+      },
+      {
+        "metric": "birth certificates secured for children in cocoa-growing families in C\u00f4te d'Ivoire",
+        "value": "1,900+",
+        "category": "Social"
+      },
+      {
+        "metric": "farmers monitored through CLMRS or comparable due diligence system",
+        "value": "101,100",
+        "category": "Social"
+      },
+      {
+        "metric": "Human Rights",
+        "value": "areas of human rights, labor issues, and gender equality in our workforce",
+        "category": "Social"
+      },
+      {
+        "metric": "human rights, ensuring fair treatment, safe working conditions, and ethical conduct across our global supply chains",
+        "value": "We prioritize human rights, ensuring fair treatment, safe working conditions, and ethical conduct across our global supply chains.",
+        "category": "Social"
+      },
+      {
+        "metric": "100% of Cargill-owned palm operations have implemented our HRDD process",
+        "value": "100% of Cargill-owned palm operations have implemented our HRDD process",
+        "category": "Social"
+      },
+      {
+        "metric": "100% of direct suppliers have human rights commitments in their NDPE policy",
+        "value": "100% of direct suppliers have human rights commitments in their NDPE policy",
+        "category": "Social"
+      },
+      {
+        "metric": "Collaboration with Smallholder Communities",
+        "value": "Collaborating directly with smallholder communities, we actively protect human rights, conserve peatlands, and ensure our developments align with HCSA to maintain environmental integrity.",
+        "category": "Social"
+      },
+      {
+        "metric": "of direct suppliers with human rights commitments in their NDPE policy",
+        "value": "82%",
+        "category": "Social"
+      },
+      {
+        "metric": "Number of farms blocked by Slave Labor List",
+        "value": "35",
+        "category": "Social"
+      },
+      {
+        "metric": "Additional operations we analyzed to avoid rerouting of soy from restricted areas by Slave Labor List",
+        "value": "15",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Community Investment and Philanthropy",
+    "dataset_1": [
+      {
+        "metric": "Programs to eradicate childhood hunger",
+        "value": "100% of communities where products are produced",
+        "category": "Social"
+      },
+      {
+        "metric": "Programs to support education and/or educational gender equality",
+        "value": "100% of operational areas with low graduation rates",
+        "category": "Social"
+      },
+      {
+        "metric": "Initiatives to support women entrepreneurs",
+        "value": "100% of communities with a high gender equality imbalance",
+        "category": "Social"
+      },
+      {
+        "metric": "People experiencing extreme hunger (World Food Program report)",
+        "value": "333 million",
+        "category": "Social"
+      },
+      {
+        "metric": "Children supported by Initiative as Funding Increases",
+        "value": "50,000",
+        "category": "Social"
+      },
+      {
+        "metric": "Children supported by Initiative as Funding Increases 2024 Goal",
+        "value": "100,000",
+        "category": "Social"
+      },
+      {
+        "metric": "Children supported by Initiative as Funding Increases 2025 Goal",
+        "value": "2.4M",
+        "category": "Social"
+      },
+      {
+        "metric": "Books donated in China to local middle schools",
+        "value": "600",
+        "category": "Social"
+      },
+      {
+        "metric": "Operations with local community engagement, impact assessments and development programs",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Invested in local communities around the world",
+        "value": "$130 million",
+        "category": "Social"
+      },
+      {
+        "metric": "Meals provided globally through corporate giving efforts",
+        "value": "34 million",
+        "category": "Social"
+      },
+      {
+        "metric": "People reached since 2018",
+        "value": "26.9 million",
+        "category": "Social"
+      },
+      {
+        "metric": "Invest in programs and projects that advance social and environmental impact priorities and support local communities",
+        "value": "$130 million",
+        "category": "Social"
+      },
+      {
+        "metric": "people have gained improved nutrition and economic livelihoods through Hatching Hope since 2018",
+        "value": "26.9 million",
+        "category": "Social"
+      },
+      {
+        "metric": "Hatching Hope Reach",
+        "value": "26.9 million",
+        "category": "Social"
+      },
+      {
+        "metric": "amount contributed across 70 countries to partners and local communities",
+        "value": "$130 million+",
+        "category": "Social"
+      },
+      {
+        "metric": "people around the world have increased food access",
+        "value": "500,000+",
+        "category": "Social"
+      },
+      {
+        "metric": "project estimated to positively impact",
+        "value": "22,000 people",
+        "category": "Social"
+      },
+      {
+        "metric": "volunteer hours",
+        "value": "64,000+",
+        "category": "Social"
+      },
+      {
+        "metric": "school-building program reaches more than",
+        "value": "17,000 children every year",
+        "category": "Social"
+      },
+      {
+        "metric": "schools built in Vietnam",
+        "value": "114",
+        "category": "Social"
+      },
+      {
+        "metric": "second harvest pledges amount",
+        "value": "$10 million",
+        "category": "Social"
+      },
+      {
+        "metric": "people with improved food security",
+        "value": "500,000+",
+        "category": "Social"
+      },
+      {
+        "metric": "people benefited as a result of Cargill employee volunteers supporting food banks and other partners",
+        "value": "22,000",
+        "category": "Social"
+      },
+      {
+        "metric": "meals provided through corporate giving efforts globally",
+        "value": "34 million",
+        "category": "Social"
+      },
+      {
+        "metric": "Partnership has positively impacted more than",
+        "value": "480,000 people",
+        "category": "Social"
+      },
+      {
+        "metric": "people in Cameroon reached through cash-based transfers",
+        "value": "6,000+",
+        "category": "Social"
+      },
+      {
+        "metric": "people in Ethiopia reached through wheat distribution",
+        "value": "117,000",
+        "category": "Social"
+      },
+      {
+        "metric": "people in Egypt reached through food assistance",
+        "value": "9,000",
+        "category": "Social"
+      },
+      {
+        "metric": "Community needs (healthcare, nutrition, education, child labor, economic opportunities for women and youth)",
+        "value": "collaborate with partners to address",
+        "category": "Social"
+      },
+      {
+        "metric": "schools and 200 classrooms built or renovated in Ghana",
+        "value": "65",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Farmer and Smallholder Livelihood Support",
+    "dataset_1": [
+      {
+        "metric": "small holder growers supplying into our Kalasin, Thailand facility were validated at the FSA Gold level",
+        "value": "97.5%",
+        "category": "Social"
+      },
+      {
+        "metric": "small holder growers supplying into our Kalasin, Thailand facility were validated at the FSA Silver level",
+        "value": "2.5%",
+        "category": "Social"
+      },
+      {
+        "metric": "Small holder farmers engaged in geographies",
+        "value": "95.5%",
+        "category": "Social"
+      },
+      {
+        "metric": "Small-holder farmers contracted to supply the agricultural materials",
+        "value": "12,000",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Farmer trainings delivered",
+        "value": "700,000 focused on sustainable agricultural practices and increasing market access",
+        "category": "Social"
+      },
+      {
+        "metric": "Farmer trainings delivered since 2017",
+        "value": "7.2 million",
+        "category": "Social"
+      },
+      {
+        "metric": "farmer trainings delivered since 2017",
+        "value": "7.2 million",
+        "category": "Social"
+      },
+      {
+        "metric": "Acres program",
+        "value": "38 farmers have completed the program",
+        "category": "Social"
+      },
+      {
+        "metric": "farmers trained",
+        "value": "7.2 million",
+        "category": "Social"
+      },
+      {
+        "metric": "89,000+ farmers",
+        "value": "trained on practices that improve animal health and increase farm productivity",
+        "category": "Social"
+      },
+      {
+        "metric": "84%",
+        "value": "of the farmers who received training adopted new practices",
+        "category": "Social"
+      },
+      {
+        "metric": "corn farmers project aims to support",
+        "value": "15,000",
+        "category": "Social"
+      },
+      {
+        "metric": "corn farmers benefited by opening up market access and better prices",
+        "value": "6,500",
+        "category": "Social"
+      },
+      {
+        "metric": "# of farmer organizations in Cargill Cocoa Promise (CCP)",
+        "value": "178",
+        "category": "Social"
+      },
+      {
+        "metric": "# of farmers certified through CCP activities",
+        "value": "211,434",
+        "category": "Social"
+      },
+      {
+        "metric": "# and % of farmers coached",
+        "value": "89,433, 42%",
+        "category": "Social"
+      },
+      {
+        "metric": "# and % of farmers GAP compliant",
+        "value": "11,717, 57%",
+        "category": "Social"
+      },
+      {
+        "metric": "Farmer economic support",
+        "value": "support farms economically so communities can succeed",
+        "category": "Social"
+      },
+      {
+        "metric": "Empowering cocoa farmers",
+        "value": "through technical skill-building and access to services, improving cocoa farming profitability and productivity",
+        "category": "Social"
+      },
+      {
+        "metric": "cooperative-led pruning groups setup in Ghana",
+        "value": "100",
+        "category": "Social"
+      },
+      {
+        "metric": "farmers in our Promise network receive 1-1 coaching based on their Farm Development Plan",
+        "value": "42%",
+        "category": "Social"
+      },
+      {
+        "metric": "Total household income of BAKARY",
+        "value": "2,520 USD/year",
+        "category": "Social"
+      },
+      {
+        "metric": "Total household income of KOUAME",
+        "value": "5,180 USD/year",
+        "category": "Social"
+      },
+      {
+        "metric": "Total household income of KOFFI",
+        "value": "3,550 USD/year",
+        "category": "Social"
+      },
+      {
+        "metric": "members of Village Savings and Loan groups in West Africa",
+        "value": "41,500+",
+        "category": "Social"
+      },
+      {
+        "metric": "Number of farmers who are certified/verified under a sustainability program",
+        "value": "Number of farmers who are certified/verified under a sustainability program",
+        "category": "Social"
+      },
+      {
+        "metric": "farmers engaged in livelihood improvement programs",
+        "value": "640",
+        "category": "Social"
+      },
+      {
+        "metric": "Approximate number of suppliers selling soy to Cargill",
+        "value": "4,700",
+        "category": "Social"
+      },
+      {
+        "metric": "Approximate number of suppliers selling soy to Cargill",
+        "value": "200",
+        "category": "Social"
+      },
+      {
+        "metric": "Approximate number of suppliers selling soy to Cargill",
+        "value": "14,200",
+        "category": "Social"
+      },
+      {
+        "metric": "Approximate number of suppliers selling soy to Cargill",
+        "value": "2,000",
+        "category": "Social"
+      },
+      {
+        "metric": "Approximate number of suppliers selling soy to Cargill",
+        "value": "500",
+        "category": "Social"
+      },
+      {
+        "metric": "Land Innovation Fund projects",
+        "value": "44",
+        "category": "Social"
+      },
+      {
+        "metric": "Partner institutions engaged",
+        "value": "54",
+        "category": "Social"
+      },
+      {
+        "metric": "Innovations supported",
+        "value": "70",
+        "category": "Social"
+      },
+      {
+        "metric": "Farms participating",
+        "value": "2,100",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Labor Rights and Working Conditions",
+    "dataset_1": [
+      {
+        "metric": "Collective bargaining agreements",
+        "value": "Approximately 45% of Ingredion's manufacturing plants have collective bargaining agreements in place.",
+        "category": "Social"
+      },
+      {
+        "metric": "Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+        "value": "Benefits, and their variance between full-time and part-time employees, vary by country and region. These benefits may also be impacted by any collective bargaining agreements that are in place.",
+        "category": "Social"
+      },
+      {
+        "metric": "Parental leave",
+        "value": "Parental leave varies by country and region and is managed locally in accordance with legal requirements.",
+        "category": "Social"
+      },
+      {
+        "metric": "Operations and suppliers in which the right to freedom of association and collective bargaining may be at risk",
+        "value": "2023 Sustainability Report",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Decent Rural Living Initiative",
+        "value": "authentically promote sustainable agricultural and labor practices. This initiative strives to improve the social well-being within supply chain communities through the creation of fair wages, transparency, and worker-centric long-term collaborations",
+        "category": "Social"
+      },
+      {
+        "metric": "human rights, ensuring fair treatment, safe working conditions, and ethical conduct across our global supply chains",
+        "value": "We prioritize human rights, ensuring fair treatment, safe working conditions, and ethical conduct across our global supply chains.",
+        "category": "Social"
+      },
+      {
+        "metric": "direct workers engaged to improve welfare and working conditions",
+        "value": "530",
+        "category": "Social"
+      },
+      {
+        "metric": "indirect workers engaged to improve welfare and working conditions",
+        "value": "2,000",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Employee Engagement and Inclusion",
+    "dataset_1": [
+      {
+        "metric": "Global Inclusion Week participants",
+        "value": "275",
+        "category": "Social"
+      },
+      {
+        "metric": "Percentage of global population who are BRG members",
+        "value": "18.3%",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "% of employees have positive levels of engagement",
+        "value": "88%",
+        "category": "Social"
+      },
+      {
+        "metric": "% of employees agree that we are creating an inclusive workplace",
+        "value": "81%",
+        "category": "Social"
+      }
+    ]
+  },
+  {
+    "common_metric": "Grievance Mechanisms and Incident Reporting",
+    "dataset_1": [
+      {
+        "metric": "Incidents of violations involving rights of indigenous people",
+        "value": "Ingredion is not aware of any issues or violations in our operations involving the rights of indigenous people. 2023 Sustainability Report",
+        "category": "Social"
+      },
+      {
+        "metric": "Incidents of non-compliance concerning marketing communication",
+        "value": "No incidents of marketing non-compliance were identified in 2023.",
+        "category": "Social"
+      },
+      {
+        "metric": "Substantiated complaints concerning breaches of customer privacy and losses of customer data",
+        "value": "Ingredion had no such complaints made by our customers.",
+        "category": "Social"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Ethics Open Line",
+        "value": "24/7 availability",
+        "category": "Social"
+      },
+      {
+        "metric": "Human Rights and Environmental Grievance Process",
+        "value": "Provides a framework for stakeholders to raise concerns",
+        "category": "Social"
+      },
+      {
+        "metric": "Grievances logged direct third-parties",
+        "value": "30",
+        "category": "Social"
+      },
+      {
+        "metric": "Grievances logged indirect third-parties",
+        "value": "79",
+        "category": "Social"
+      },
+      {
+        "metric": "Addressing grievances - Labor/human rights - investigation",
+        "value": "19%",
+        "category": "Social"
+      },
+      {
+        "metric": "Addressing grievances - Labor/human rights - verification",
+        "value": "0%",
+        "category": "Social"
+      },
+      {
+        "metric": "Addressing grievances - Labor/human rights - developing action plan",
+        "value": "3%",
+        "category": "Social"
+      },
+      {
+        "metric": "Addressing grievances - Labor/human rights - monitoring implementation",
+        "value": "29%",
+        "category": "Social"
+      },
+      {
+        "metric": "Addressing grievances - Labor/human rights - closed",
+        "value": "26%",
+        "category": "Social"
+      },
+      {
+        "metric": "Addressing grievances - Labor/human rights - suspended",
+        "value": "23%",
+        "category": "Social"
+      },
+      {
+        "metric": "soy-related grievances reported",
+        "value": "326",
+        "category": "Social"
+      },
+      {
+        "metric": "grievances related to our supply chain or operations",
+        "value": "72",
+        "category": "Social"
+      },
+      {
+        "metric": "Social related to supply chain or operations",
+        "value": "25",
+        "category": "Social"
+      },
+      {
+        "metric": "Social and environmental related to supply chain or operations",
+        "value": "2",
+        "category": "Social"
+      },
+      {
+        "metric": "grievances unrelated to our supply chain or operations",
+        "value": "254",
+        "category": "Social"
+      },
+      {
+        "metric": "Social unrelated to supply chain or operations",
+        "value": "209",
+        "category": "Social"
+      }
+    ]
+  }
+]
