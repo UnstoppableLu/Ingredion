@@ -97,4 +97,6 @@ source .venv/bin/activate
 
 streamlit run main.py
 
+pip install -r requirements.txt
+
 
