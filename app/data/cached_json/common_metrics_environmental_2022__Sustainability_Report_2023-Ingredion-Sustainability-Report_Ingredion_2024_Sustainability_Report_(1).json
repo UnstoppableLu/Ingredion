@@ -1,0 +1,1088 @@
+[
+  {
+    "common_metric": "GHG Emissions (Scopes 1 & 2)",
+    "dataset_1": [
+      {
+        "metric": "Scopes 1 and 2 GHG emissions reduction",
+        "value": "Achieve a 28% reduction in absolute by the end of 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scopes 1, 2, and Biogenic)",
+        "value": "-12%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 Emissions",
+        "value": "2,198,222",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 2 Emissions",
+        "value": "823,062",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Biogenic Emissions",
+        "value": "47,958",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction of CO2e based upon calculations from the Cool Farm Tool",
+        "value": "27.5%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Direct (Scope 1) GHG emissions",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Energy indirect (Scope 2) GHG emissions",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG emission intensity",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reductions of GHG emissions",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1, Scope 2 and Scope 3 greenhouse gas emissions",
+        "value": "Disclose Scope 1, Scope 2 and, if appropriate, Scope 3 greenhouse gas emissions and the related risks",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Purchased energy (Scope 2) emissions from purchased heat, steam, and electricity consumed in company-owned plants",
+        "value": "Purchased energy (Scope 2) emissions from purchased heat, steam, and electricity consumed in company-owned plants",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Reduction in absolute Scopes 1 and 2 GHG emissions",
+        "value": "28%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scopes 1, 2 and Biogenic)",
+        "value": "-22%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 Emissions",
+        "value": "1,897,186 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 2 Emissions",
+        "value": "673,973 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Biogenic Emissions*",
+        "value": "26,507 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "reduction in the company's global carbon footprint",
+        "value": "8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "reduction CO2 by the Guadalajara plant",
+        "value": "3400 MT",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Direct (Scope 1) GHG emissions",
+        "value": "2023 CDP Climate Change; 2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Energy indirect (Scope 2) GHG emissions",
+        "value": "2023 CDP Climate Change; 2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG emission intensity",
+        "value": "2023 CDP Climate Change",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reductions of GHG emissions",
+        "value": "2023 CDP Climate Change; 2023 Sustainability Update",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1, Scope 2 and, if appropriate, Scope 3 greenhouse gas emissions",
+        "value": "2023 CDP Climate Report (C6)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Purchased energy (Scope 2) emissions",
+        "value": "2023 CDP Climate Report (C4.1a)",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "Carbon Emissions (Scopes 1, 2 and Biogenic)",
+        "value": "-22%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 Emissions",
+        "value": "1,825,070 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 2 Emissions",
+        "value": "779,840 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Biogenic Emissions*",
+        "value": "30,426 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "CO2 reduction",
+        "value": "19,000 metric tons (MT)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "CO2 reduction",
+        "value": "5,000 MT",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduced carbon footprint",
+        "value": "47%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions Reduction",
+        "value": "Direct Measurements",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "GHG Emissions (Scope 3)",
+    "dataset_1": [
+      {
+        "metric": "Scope 3 GHG emissions reduction",
+        "value": "Achieve a 15% reduction in absolute by the end of 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scope 3)",
+        "value": "-7%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 Emissions",
+        "value": "11,743,381",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Other indirect (Scope 3) GHG emissions",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1, Scope 2 and Scope 3 greenhouse gas emissions",
+        "value": "Disclose Scope 1, Scope 2 and, if appropriate, Scope 3 greenhouse gas emissions and the related risks",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Reduction in absolute Scope 3 GHG emissions",
+        "value": "15%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scope 3)",
+        "value": "-3%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 Emissions",
+        "value": "10,201,373 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Other indirect (Scope 3) GHG emissions",
+        "value": "2023 CDP Climate Change",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1, Scope 2 and, if appropriate, Scope 3 greenhouse gas emissions",
+        "value": "2023 CDP Climate Report (C6)",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "Carbon Emissions (Scope 3)",
+        "value": "-7%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 Emissions",
+        "value": "16,076,377 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Overall; ",
+        "value": "11,457,253 SBT\u0130",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Water Use & Intensity",
+    "dataset_1": [
+      {
+        "metric": "Water use intensity reduction",
+        "value": "Reduce our water use intensity by 30% in all extremely high-stress geographies where we manufacture products by the end of 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water and Energy Consumption",
+        "value": "Less",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use Intensity",
+        "value": "2%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use: Global",
+        "value": "53,831,892",
+        "category": "Environmental"
+      },
+      {
+        "metric": "REDUCTION IN WATER USE INTENSITY IN PAKISTAN VERSUS THEIR 2019 BASELINE",
+        "value": "23%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "REDUCTION IN WATER USE IN MALAYSIA VERSUS THE 2019 BASELINE",
+        "value": "42%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water conservation projects with growers",
+        "value": "Implement in 100% of extremely high water stressed sourcing geographies by the end of 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Enact programs in support of local water conservation in 100% of extremely high water stress communities where we produce products by the end of 2027",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water withdrawal by source",
+        "value": "2022 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water sources significantly impacted by withdrawal of water",
+        "value": "2022 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water recycled and reused",
+        "value": "2022 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total water-withdrawal and total water consumed",
+        "value": "Total water-withdrawal and total water consumed",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percent of water withdrawn and consumed in regions with high or extremely high baseline water stress",
+        "value": "Percent of water withdrawn and consumed in regions with high or extremely high baseline water stress",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of company-owned production sites in regions with high or extremely high baseline water stress",
+        "value": "Number of company-owned production sites in regions with high or extremely high baseline water stress",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Water use intensity reduction in extremely high-stress geographies",
+        "value": "30%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use Intensity*",
+        "value": "-2%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use: Global",
+        "value": "49,046,105 cubic meters",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in water intensity (Mexico)",
+        "value": "2%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Improvement in water intensity over prior year (Mexico)",
+        "value": "4%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in water intensity (Pakistan)",
+        "value": "26%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water conservation projects with growers in extremely high water stressed sourcing geographies",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Programs to support local water conservation",
+        "value": "100% of extremely high water stress communities",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water withdrawal by source",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water sources significantly impacted by withdrawal of water",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water recycled and reused",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total water-withdrawal and total water consumed",
+        "value": "2023 CDP Water Report (W1.2b)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percent of water withdrawn and consumed in regions with high or extremely high baseline water stress",
+        "value": "2023 CDP Water Report (W1.2d)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of company-owned production sites in regions with high or extremely high baseline water stress",
+        "value": "2023 CDP Water Report (W4.1b, W4.2)",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "Water Use Intensity*",
+        "value": "0%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use: Global",
+        "value": "51,503,000 cubic meters",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduced blue water usage",
+        "value": "6%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Waste Management & Diversion",
+    "dataset_1": [
+      {
+        "metric": "Waste to landfill avoidance",
+        "value": "Achieve 100% by the end of 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste to Landfill Avoidance",
+        "value": "83%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Solid Waste",
+        "value": "262,425",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste Diversion Rate",
+        "value": "92%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste Diversion Rate (2021)",
+        "value": "74%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Zero Waste Definition Threshold",
+        "value": "< 0.5% of plant's solid waste going to landfill",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of facilities with Zero Waste status",
+        "value": "13",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total weight of waste generated",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste diverted from landfill",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Plastics circular economy projects",
+        "value": "Complete three projects per country where we have manufacturing operations by the end of 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Plastic reduction projects completed in 2022",
+        "value": "13",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Estimated plastic eliminated from supply chain",
+        "value": "316,612 kilograms",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Estimated plastic enabled for recycling",
+        "value": "189,152 kilograms",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Waste avoidance to landfill",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste to Landfill Avoidance",
+        "value": "88%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Solid Waste",
+        "value": "277,346 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total company waste diverted from landfill/incineration",
+        "value": "88%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total weight of waste generated",
+        "value": "2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste diverted from landfill",
+        "value": "2023 Sustainability Report",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "Waste to Landfill Avoidance",
+        "value": "92%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Solid Waste",
+        "value": "276,188 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "total waste diverted from going to landfills or incinerations without energy recovery",
+        "value": "92%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Plants Achieving Zero Waste to Landfill",
+        "value": "17",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Plastic packaging material usage",
+        "value": "13,500 MT",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Plastic content in packaging material",
+        "value": "50%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction of plastic from headquarters",
+        "value": "150 kg",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of plastic waste reduction projects completed",
+        "value": "32",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Creates upcycled ingredients from \u201cugly\u201d fruit, potato co-streams from French fries and chips and waste citrus peels",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Kerr Concentrates team has over products certified through the Upcycled Food Association",
+        "value": "50+",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Turning byproducts or waste streams into value-added ingredients",
+        "value": null,
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Wastewater Quality",
+    "dataset_1": [
+      {
+        "metric": "COD/BOD reduction from wastewater discharges",
+        "value": "Reduce by 10% by the end of 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Wastewater Generation",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Wastewater COD Intensity",
+        "value": "+7%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water discharge by quality and destination",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water by type and disposal method",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water bodies affected by water discharges and/or runoff",
+        "value": null,
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "COD or BOD reduction from wastewater discharges",
+        "value": "10%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Wastewater COD Intensity",
+        "value": "1%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Increase in COD intensity",
+        "value": "1%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water discharge by quality and destination",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water by type and disposal method",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water bodies affected by water discharges and/or runoff",
+        "value": "2023 CDP Water",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "Wastewater COD Intensity",
+        "value": "1%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "COD intensity reduction goal",
+        "value": "10% by 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "COD intensity increase",
+        "value": "1%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "COD reduction at Cali plant",
+        "value": "42%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Sustainable Agriculture & Sourcing",
+    "dataset_1": [
+      {
+        "metric": "Global waxy corn supply sustainably sourced",
+        "value": "100% of global waxy corn supply sustainably sourced by the end of 2022",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 priority crops sustainably sourced",
+        "value": "100% by the end of 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agricultural supply without pesticides of concern",
+        "value": "Confirm that 100% is not using pesticides of concern by the end of 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Integrated pest management",
+        "value": "Educate growers and/or implement in at least 70% of our agricultural supply chain by the end of 2027",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 and 2 priority crops sustainably sourced",
+        "value": "100% of our Tier 1 and 2 priority crops sustainably sourced by the end of 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Global waxy corn sustainably sourced",
+        "value": "99%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Usage of integrated pest management globally",
+        "value": "57%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "PureCircle Stevia sustainably sourced (SAI Platform)",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres in regenerative agriculture projects (2022)",
+        "value": "50,000",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Target acres under regenerative programs (2023)",
+        "value": "100,000",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Additional metric tons of sustainably sourced crops through Thailand SMART Agriculture Program",
+        "value": "130,000",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Global waxy corn supply sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 priority crops sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agricultural supply not using pesticides of concern",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agricultural supply chain with integrated pest management",
+        "value": "70%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 and 2 priority crops sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable sourcing of Tier 1 crops",
+        "value": "66%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres of crops in regenerative programs",
+        "value": "74,000 acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "global waxy corn sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Growers achieving SAI Platform's FSA Gold level",
+        "value": "14.6%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres under regenerative agriculture programs",
+        "value": "74,000",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainably sourced Tier 1 priority crops",
+        "value": "100% by 2025",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "FSA Tier 1 priority crops",
+        "value": "over 85%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Global sourcing by volume",
+        "value": "approximately 99%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "sustainably sourced tier 1 crops",
+        "value": "85%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "acres of crops in regenerative programs, covering corn sourced for Brazil, Mexico and the US",
+        "value": "74K",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of Tier 1 priority crops sustainably sourced",
+        "value": "85.75%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of Waxy corn is sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "FSA Silver Certification",
+        "value": "100% of Stevia Leaf Supply",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Increased yields per hectare",
+        "value": "Resulting from optimized herbicide and pesticide usage",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of Thai Sourcing that has earned FSA Gold status",
+        "value": "34%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres on which regenerative practices were implemented",
+        "value": "74,000",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Optimized Herbicide and Pesticide Usage",
+        "value": "FSA Silver Certified Farms",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of United States Supply of dent corn resulted",
+        "value": "100% in 2024, 62% in 2023",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of Canada's Supply resulted",
+        "value": "65% in 2024, 30% in 2023",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of Colombia's Corn sourcing at an FSA Gold level",
+        "value": "97% in 2024, 18% in 2023",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable Sourcing",
+        "value": "Direct Measurements",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable Agriculture Initiative (SAI) Platform member",
+        "value": "Yes",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Uses Farm Sustainability Assessment (FSA) to evaluate the growers in our supply chain.",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 priority crops - corn, tapioca, potato, stevia and peas/pulses",
+        "value": null,
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Renewable Energy Usage",
+    "dataset_1": [
+      {
+        "metric": "Renewable Energy",
+        "value": "4%",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Renewable Energy",
+        "value": "25%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Purchased electricity from renewable sources",
+        "value": "25%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Use of produced biogas",
+        "value": "70%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable electricity as percentage of global purchased electricity",
+        "value": "25%",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "Renewable Purchased Electricity",
+        "value": "32%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "70%",
+        "value": "70%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Biodiversity & Deforestation",
+    "dataset_1": [
+      {
+        "metric": "Endangered species identification",
+        "value": "Engage with an NGO partner to identify any endangered species impacted by agricultural operations by the end of 2022",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agricultural biodiversity risks",
+        "value": "Assess agricultural biodiversity risks for priority crops and sourcing regions by the end of 2023",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Endangered species net positive impact",
+        "value": "Identify local partners and engage in projects to have a net positive impact by the end of 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Biodiversity conservation programs",
+        "value": "Implement in all crop sourcing areas located in biodiversity hotspots by the end of 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation/sustainable forest resource use",
+        "value": "Achieve zero deforestation, or 100% sustainable use of forest-based resources, by the end of 2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Operational sites owned, leased, managed in, or adjacent to protected areas and areas of high biodiversity value outside protected areas.",
+        "value": "2022 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Significant impacts of activities, products, and services on biodiversity",
+        "value": "2022 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Habitats protected or restored",
+        "value": "2022 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "IUCN Red List species and national conservation list species with habitats in areas impacted by operations",
+        "value": "Ingredion has assessed our operations against the CEPF global biodiversity hotspot list, as well as the IUCN Red List, with no significant impact to either.",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "50% of the world's gross domestic product economic value generation is dependent on biodiversity",
+        "value": "50%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Assessed geographies of global manufacturing operations using WWF Biodiversity Risk Filter.",
+        "value": "Yes",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of distinct indicators used in the WWF Biodiversity Risk Filter assessment",
+        "value": "33",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainability-related topics where the greatest variation in responses is seen",
+        "value": "Biodiversity",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation identified by FSA in Brazil",
+        "value": "NO",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation identified by other means in Brazil",
+        "value": "YES",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation identified by FSA in Canada",
+        "value": "YES",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation identified by other means in Canada",
+        "value": "NO",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Operational sites owned, leased, managed in, or adjacent to protected areas and areas of high biodiversity value outside protected areas.",
+        "value": "2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Significant impacts of activities, products and services on biodiversity",
+        "value": "2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Habitats protected or restored",
+        "value": "2023 Sustainability Report",
+        "category": "Environmental"
+      },
+      {
+        "metric": "IUCN Red List species and national conservation list species with habitats in areas impacted by operations",
+        "value": "Ingredion has assessed our operations against the CEPF global biodiversity hotspot list, as well as the IUCN Red List, with no significant impact to either.",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "% of Tier 1 priority crops' supply chain validated as having no deforestation",
+        "value": "85%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Sustainability-Related Investments",
+    "dataset_1": [
+      {
+        "metric": "Investment in partnerships",
+        "value": "collaborating with customers and NGOs to implement regenerative agriculture practices on the farms in our supply chain, while also reducing the on-farm carbon emissions that are a major contributor to our Scope 3 emissions.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainability Investments",
+        "value": "Invested in a partnership with HowGood, the world's largest product sustainability database that helps us better understand how our products perform against several sustainability attributes",
+        "category": "Environmental"
+      },
+      {
+        "metric": "All Life plan",
+        "value": "Millions invested in 2022 to drive reductions in our carbon emissions and water usage",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Revenues/savings from investments in low-carbon alternatives",
+        "value": "Revenues/savings from investments in low-carbon alternatives",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Investments (CapEx) in low carbon/water alternatives",
+        "value": "Investments (CapEx) in low carbon/water alternatives",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Revenues/savings from investments in low-carbon alternatives",
+        "value": "2023 CDP Climate Report (C4.3b)",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Investments (CapEx) in low carbon/water alternatives",
+        "value": "2023 CDP Climate Report (C4.3b)\n2022 CDP Water Report (W4.3, W7.2)",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric": "Greenhouse Gas (GHG) or water reductions",
+        "value": "$14M",
+        "category": "Environmental"
+      },
+      {
+        "metric": "SIDEAID project launched",
+        "value": null,
+        "category": "Environmental"
+      }
+    ]
+  }
+]

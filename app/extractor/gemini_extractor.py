@@ -11,11 +11,19 @@ class MetricsExtractor:
             raise ValueError("Google API key not found. Please set GOOGLE_API_KEY.")
         self.client = genai.Client(api_key=api_key)
 
-    def extract_metrics(self, text_chunks: List[str]) -> Dict:
+    def extract_metrics(self, text_chunks: List[Dict[str, str]]) -> List[Dict]:
+        """
+        Extract ESG metrics from text chunks.
+        Each chunk is expected to be a dict with:
+          {
+            "page_number": int,
+            "text": str
+          }
+        """
         base_prompt = """
         You are an ESG data extraction assistant.
         Extract sustainability metrics from the text and return a **valid JSON array**.
-        Each entry should have:
+        Each entry must include:
           - metric_name
           - value
           - unit
@@ -29,29 +37,42 @@ class MetricsExtractor:
 
         all_metrics = []
         for chunk in text_chunks:
+            page_number = chunk.get("page_number")
+            text = chunk.get("text", "")
+
             response = self.client.models.generate_content(
-                model="gemini-2.5-pro",  # ✅ use 2.5 here
-                contents=base_prompt.format(text=chunk)
+                model="gemini-2.5-flash",
+                contents=base_prompt.format(text=text)
             )
 
-            print("Raw Gemini 2.5 response:", response.text)
+            print(f"🧾 Raw Gemini 2.5 flash response for page {page_number}:", response.text)
             raw_text = response.text.strip()
             try:
                 parsed = json.loads(raw_text)
                 if isinstance(parsed, list):
-                    all_metrics.extend(parsed)
-                else:
+                    for item in parsed:
+                        if isinstance(item, dict):
+                            item["source_page"] = page_number
+                            all_metrics.append(item)
+                elif isinstance(parsed, dict):
+                    parsed["source_page"] = page_number
                     all_metrics.append(parsed)
             except json.JSONDecodeError:
-                # fallback: try extracting JSON portion from any stray text
                 match = re.search(r'(\[.*\]|\{.*\})', raw_text, re.DOTALL)
                 if match:
                     parsed = json.loads(match.group())
                     if isinstance(parsed, list):
-                        all_metrics.extend(parsed)
-                    else:
+                        for item in parsed:
+                            if isinstance(item, dict):
+                                item["source_page"] = page_number
+                                all_metrics.append(item)
+                    elif isinstance(parsed, dict):
+                        parsed["source_page"] = page_number
                         all_metrics.append(parsed)
                 else:
-                    # store raw text if parsing fails
-                    all_metrics.append({"raw_output": raw_text})
+                    all_metrics.append({
+                        "raw_output": raw_text,
+                        "source_page": page_number
+                    })
+
         return all_metrics

@@ -1,0 +1,748 @@
+[
+  {
+    "common_metric": "GHG Emissions (Scopes 1 & 2)",
+    "dataset_1": [
+      {
+        "metric": "Absolute reduction in Scopes 1 and 2 GHG emissions",
+        "value": "28%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable Innovation - Reduce Carbon Footprint",
+        "value": "Functional starch helps paper customers reduce carbon footprint by increasing recycled content.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scopes 1, 2 and Biogenic)",
+        "value": "-22%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 Emissions",
+        "value": "1,825,070 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 2 Emissions",
+        "value": "779,840 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Biogenic Emissions",
+        "value": "30,426 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduce CO2",
+        "value": "19,000 metric tons (MT) of CO2 per year",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduced carbon footprint",
+        "value": "47%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon emissions reductions",
+        "value": null,
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Decrease greenhouse gas emissions from our operations",
+        "value": "15.8% from our 2017 baseline",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 and 2 (operations): Reduce absolute operational greenhouse gas (GHG) emissions by 10% by 2025",
+        "value": "15.8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "CO\u2082e reduction from 2017 baseline",
+        "value": "670,000 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction in Scope 1 and 2 emissions compared to 2017 baseline",
+        "value": "15.8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG emissions reduction",
+        "value": "15.8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG emissions",
+        "value": "reducing across its global operations and supply chains",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 1 and 2 emissions",
+        "value": "reducing within our operations",
+        "category": "Environmental"
+      },
+      {
+        "metric": "CO2 emissions",
+        "value": "reduce 1.3 million metric tons over the coming decade by transitioning to renewable energy sources",
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG emissions",
+        "value": "minimize waste in our operations, converting byproducts into electricity and soil amendments to reduce greenhouse gas (GHG) emissions",
+        "category": "Environmental"
+      },
+      {
+        "metric": "reduced our operational GHG emission footprint in Indonesia",
+        "value": "reduced our operational GHG emission footprint in Indonesia by 270,000 metric tons of CO\u2082e.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "reducing Scope 1 and 2 GHG emissions",
+        "value": "We achieved our goal of reducing Scope 1 and 2 GHG emissions by 10% against our 2017 baseline, and we continue striving for emissions reductions in alignment with the Science Based Targets initiative (SBTI).",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Support our SBTi goal to reduce Scope 1 and 2 emissions by 10% against a 2017 baseline",
+        "value": "Support our SBTi goal to reduce Scope 1 and 2 emissions by 10% against a 2017 baseline",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Methane Capture Projects",
+        "value": "270,000 metric tons of CO\u2082e reduced from our methane capture projects",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Decrease in the carbon footprint of Ler\u00f8y's harvested fish",
+        "value": "46%",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "GHG Emissions (Scope 3)",
+    "dataset_1": [
+      {
+        "metric": "Reduction in absolute Scope 3 GHG emissions",
+        "value": "15%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable Innovation - Scope 3 Emissions",
+        "value": "Focus on reducing scope 3 emissions by developing ingredients that enable customers to lower carbon footprint.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Carbon Emissions (Scope 3)",
+        "value": "-7%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 Emissions",
+        "value": "16,076,377 metric tons",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Scope 3 (supply chain): Reduce global GHG emissions from our global supply chain by 30% by 2030, measured per ton of product",
+        "value": "670,000 metric tons CO\u2082e reduced through supply chain sustainability programs",
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG reduction potential of palm oil facility project",
+        "value": "105,000 metric tons CO\u2082e",
+        "category": "Environmental"
+      },
+      {
+        "metric": "CO2 savings from Innovafeed insect meal in aquafeed",
+        "value": "16,000 metric tons per 10,000 metric tons of insect protein",
+        "category": "Environmental"
+      },
+      {
+        "metric": "CO2e reductions (SeaFurther, UK)",
+        "value": "7,000 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "CO2e insets sourced from France (SeaFurther, UK)",
+        "value": "8,000 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Total CO2e reduced for customers (SeaFurther, UK)",
+        "value": "15,000 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Leroy's reduction of the feed carbon footprint",
+        "value": "3.5% using carbon insets",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Metric tons of CO\u2082 equivalents, Leroy",
+        "value": "12,000 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Scope 3 emissions",
+        "value": "initiative contributes to the reduction of",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Renewable Energy",
+    "dataset_1": [
+      {
+        "metric": "Renewable Purchased Electricity",
+        "value": "32%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable Electricity purchases",
+        "value": "32%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Biogas utilization",
+        "value": "70%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable electricity",
+        "value": "32%",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Increase in contracted renewable energy capacity since early 2023",
+        "value": "42%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Renewable electricity mix emission reductions",
+        "value": "908,000 metric tons CO\u2082 equivalent",
+        "category": "Environmental"
+      },
+      {
+        "metric": "GHG emissions reduction due to renewable electricity portfolio",
+        "value": "442,000 metric tons CO\u2082e",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Contracted renewable electricity capacity",
+        "value": "716 megawatts",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Water Use & Stewardship",
+    "dataset_1": [
+      {
+        "metric": "Water use intensity reduction",
+        "value": "30%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable Innovation - Reduce Water Footprint",
+        "value": "Functional starch helps paper customers reduce product water footprint by increasing recycled content.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use Intensity",
+        "value": "0%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water Use: Global",
+        "value": "51,503,000 cubic meters",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water risk rating",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Site water use intensity",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduced blue water usage",
+        "value": "6%",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Liters of water restored in water-stressed regions",
+        "value": "38 billion",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Implement water stewardship practices at all 68 priority facilities by 2025",
+        "value": "85%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Supply Chain and Communities: Enable a water positive impact in all priority regions by 2030",
+        "value": "14.8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Implementation of water stewardship practices",
+        "value": "85%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water restoration and pollution reduction",
+        "value": "38 billion liters and 297 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of priority water facilities",
+        "value": "68",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Restoration of water",
+        "value": "600 billion liters",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water quantity",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Responsible agricultural land and water use",
+        "value": "promotes",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water conservation",
+        "value": "conserve water",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Wastewater Quality",
+    "dataset_1": [
+      {
+        "metric": "Reduction of COD or BOD from wastewater discharge",
+        "value": "10%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Wastewater COD Intensity",
+        "value": "1%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "COD reduction (Cali, Colombia)",
+        "value": "42%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Site wastewater treatment operations",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Site Chemical Oxygen Demand (COD) reduction",
+        "value": null,
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Pollutant reductions enabled in water-stressed regions",
+        "value": "297 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reduction of water pollutants",
+        "value": "5,000 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Water quality",
+        "value": null,
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Waste Management & Reduction",
+    "dataset_1": [
+      {
+        "metric": "Avoidance of waste to landfill",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste to Landfill Avoidance",
+        "value": "92%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Solid Waste",
+        "value": "276,188 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waste diversion from landfill/incineration",
+        "value": "92%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Plastic waste reduction (HQ)",
+        "value": "150 kg",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Zero Waste to Landfill Plants",
+        "value": "17",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Reduction in annual plastics usage in Vietnam",
+        "value": "700 metric tons",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Cocoa bean shells",
+        "value": "leverage as a renewable resource",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Sustainable & Regenerative Agriculture",
+    "dataset_1": [
+      {
+        "metric": "Percentage of Tier 1 priority crops assessed using SAI Platform FSA",
+        "value": "85%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of Tier 1 priority crop growers meeting SAI Platform FSA Bronze level or higher",
+        "value": "85%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainably sourced Tier 1 crops",
+        "value": "85%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres of crops in regenerative programs",
+        "value": "74K acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable agriculture (% FSA validation)",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Regenerative agriculture implementation",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Pesticides of Concern use",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Integrated Pest Management use",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Tier 1 crops sustainably sourced",
+        "value": "85.75%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Waxy corn sustainably sourced",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "FSA Gold status on total sourcing for Thailand",
+        "value": "34%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable sourcing of corn in Colombia at FSA Gold level",
+        "value": "97%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "FSA Silver for stevia leaf supply",
+        "value": "100%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres with implemented regenerative practices",
+        "value": 74000,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Sustainable sourcing progress",
+        "value": null,
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Acres transitioned to regenerative agriculture practices across North America",
+        "value": "1.1 million since 2020",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres transitioned to regenerative agriculture practices",
+        "value": "1.1 million",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Acres of land restored globally",
+        "value": "435,000+",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Native grassland restoration",
+        "value": "299,000+ acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Improved habitat management",
+        "value": "1.7 million+ acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Regenerative Agriculture Land",
+        "value": "10 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Regenerative Agriculture Land (2023)",
+        "value": "880,000 acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Regenerative Agriculture Land (2024)",
+        "value": "1.1 million acres",
+        "category": "Environmental"
+      },
+      {
+        "metric": "trees planted",
+        "value": "75,000+",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Responsible sourcing",
+        "value": "Implemented to mitigate negative impact on human rights and the environment",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Farmers applying agroforestry",
+        "value": "17,210",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Cocoa agroforestry (in ha)",
+        "value": "29,518",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Multi-purpose trees distributed for on-farm planting",
+        "value": "1,375,087",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Cocoa farmers support",
+        "value": "through adaptation strategies like agroforestry, restoration, and reforestation projects",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agroforestry",
+        "value": "promoting",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Conservation practices",
+        "value": "promoting",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Agroforestry",
+        "value": "Integrate various agroforestry models into the communities where we source cocoa",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Reforestation",
+        "value": "planting cocoa trees to support restoration",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Farmers trained on sustainable agriculture and environmental management",
+        "value": "100% of farmers in our Promise network receive training",
+        "category": "Environmental"
+      },
+      {
+        "metric": "cocoa seedlings distributed in Ghana to support sustainable cocoa plot rehabilitation",
+        "value": "850,000",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Regenerative agriculture programs in South America",
+        "value": "74,000 hectares",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Hectares impacted by Land Innovation Fund",
+        "value": "2.5 million",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Hectares monitored across South America as part of certification and verification programs such as 3S",
+        "value": "4.25 million",
+        "category": "Environmental"
+      }
+    ]
+  },
+  {
+    "common_metric": "Deforestation-Free Supply Chains",
+    "dataset_1": [
+      {
+        "metric": "FSA*-identified deforestation consideration",
+        "value": null,
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of Tier 1 priority crops' supply chain validated as having no deforestation",
+        "value": "85%",
+        "category": "Environmental"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Deforestation and land conversion elimination in supply chains for key crops in Brazil, Argentina, and Uruguay",
+        "value": "by 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Eliminate deforestation across our agricultural supply chain by 2030",
+        "value": "Detailed dashboards of progress against land use metrics are in the cocoa, palm, and soy Supply Chain sections; these are the priority supply chains that comprise our global land use commitment.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation-free by 2030",
+        "value": "2030",
+        "category": "Environmental"
+      },
+      {
+        "metric": "hectares of primary forest loss after January 2014 within mapped farm polygons part of our Promise supply chain (only significant [>0,5 ha] is taken into account)",
+        "value": "2,270",
+        "category": "Environmental"
+      },
+      {
+        "metric": "% of farms with primary forest loss after January 2014 relative to all mapped farms part of our Promise supply chain (only significant [>0,5 ha] is taken into account)",
+        "value": "0.8%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation",
+        "value": "remains a top priority",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation-free supply chain",
+        "value": "goal of",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Farmers polygon mapped and monitored for deforestation risk",
+        "value": "92% of farmers polygon mapped and monitored for deforestation risk in our Promise supply chain in West Africa",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Mapped cocoa plots with no primary forest loss",
+        "value": "99% of mapped cocoa plots in West Africa show no primary forest loss since 2014",
+        "category": "Environmental"
+      },
+      {
+        "metric": "deforestation-free supply chain by 2025",
+        "value": "made progress towards a deforestation-free supply chain by 2025",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation-free palm oil supply chain",
+        "value": "Cargill is now working with Earthqualizer and Satelligence to enhance our robust monitoring capabilities in support of our commitment to be deforestation-free in the palm oil supply chain by 2025.",
+        "category": "Environmental"
+      },
+      {
+        "metric": "reduction in deforestation in the landscape's key sensitive area",
+        "value": "91%",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of volumes estimated to be DCF based on a reference date of 2020",
+        "value": "99.8",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of volumes estimated to be DCF based on a reference date of 2020",
+        "value": "96.3",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of volumes estimated to be DCF based on a reference date of 2020",
+        "value": "99.3",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of volumes estimated to be DCF based on a reference date of 2020",
+        "value": "99.8",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Percentage of volumes estimated to be DCF based on a reference date of 2020",
+        "value": "100",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of farms blocked by List of Illegal Deforestation (LDI) from Par\u00e1",
+        "value": "38",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of farms blocked by Green Grain Protocol",
+        "value": "93",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Number of farms blocked by Amazon Soy Moratorium",
+        "value": "126",
+        "category": "Environmental"
+      },
+      {
+        "metric": "Deforestation avoided based on farmer participation",
+        "value": "41,000 hectares",
+        "category": "Environmental"
+      }
+    ]
+  }
+]
