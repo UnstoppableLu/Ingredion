@@ -6,5 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "docling[vml]>=2.55.1",
+    "google-genai>=1.49.0",
     "ipython>=8.37.0",
+    "pip>=25.3",
 ]

@@ -9,6 +9,7 @@ import time
 
 from extractor.pdf_splitter import split_pdf  # ✅ Import your PDF splitting helper
 from extractor.compare_metrics import compare_metrics_page
+from extractor.structure_helper import parse_gemini_output
 
 
 # ------------------------------------------------------------
@@ -113,25 +114,27 @@ def main():
 
             try:
                 uploaded_pdf = client.files.upload(file=open(part, "rb"), config={"mime_type": "application/pdf"})
-                prompt = """
-                Extract all Environmental, Social, and Governance metrics from this PDF section.
-                Return the result strictly as a valid JSON array of objects with fields:
-                metric, value, and category.
-                """
+                prompt_text = (
+                    "Extract all performance metrics from this PDF and return ONLY a JSON object "
+                    "matching this schema: {'category': str, 'metrics': [{'metric_name': str, 'value': str, 'year': int}]}."
+                )
 
                 response = client.models.generate_content(
                     model="gemini-2.0-flash",
-                    contents=[prompt, uploaded_pdf]
+                    contents=[prompt_text, uploaded_pdf]
                 )
 
-                metrics_text = extract_json(response.text)
+                #metrics_text = extract_json(response.text)
+                output_text = response.text
+                print(output_text)
                 try:
-                    metrics_list = json.loads(metrics_text)
-                    all_metrics.extend(metrics_list)
-                except json.JSONDecodeError:
-                    st.warning(f"⚠️ Invalid JSON in part {idx}, skipping.")
+                    validated_reports = parse_gemini_output(output_text)
+                    for report in validated_reports:
+                        # Convert each ReportMetrics object to dict and extend the list
+                        all_metrics.extend([m.dict() for m in report.metrics])
+                except Exception as e:
+                    st.warning(f"⚠️ Could not parse part {idx}: {e}")
                     continue
-
                 # Cooldown to prevent rate limit (429)
                 time.sleep(2)
 
