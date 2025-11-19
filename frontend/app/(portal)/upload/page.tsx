@@ -9,6 +9,8 @@ export default function UploadPage() {
   const [year, setYear] = useState("");
   const [isUploading, setIsUploading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [metrics, setMetrics] = useState<any[] | null>(null);
+  
 
   const [replacePrompt, setReplacePrompt] = useState(false);
   const [pendingFormData, setPendingFormData] = useState<FormData | null>(null);
@@ -23,8 +25,9 @@ export default function UploadPage() {
     try {
       setIsUploading(true);
       setStatusMessage("Uploading to server...");
+      setSuccess(false);
 
-      formData.set("force", String(force)); // Ensure force is included
+      formData.set("force", String(force));
 
       const response = await axios.post(
         "http://127.0.0.1:8000/api/extract",
@@ -37,15 +40,19 @@ export default function UploadPage() {
       const data = response.data;
 
       if (data.status === "exists" && !force) {
-        // Backend says this file exists — ask user if they want to replace it
         setReplacePrompt(true);
         setPendingFormData(formData);
         setIsUploading(false);
         return;
       }
 
-      setSuccess(true);
-      setStatusMessage("File uploaded and processed successfully.");
+      if (data.status === "success") {
+        setMetrics(data.metrics || []);
+        setSuccess(true);
+        setStatusMessage("File uploaded and processed successfully.");
+        return;
+      }
+
     } catch (err: any) {
       console.error(err);
       setStatusMessage("❌ Upload failed. Check backend.");
@@ -147,6 +154,47 @@ export default function UploadPage() {
           </p>
         )}
       </div>
+
+      {metrics && (
+  <div className="mt-10 bg-gray-900 border border-gray-700 p-6 rounded-xl">
+    <h2 className="text-2xl font-bold text-green-400 mb-4">
+      📊 Extracted ESG Metrics
+    </h2>
+
+    {/* JSON View */}
+    <div className="mb-6">
+      <h3 className="text-xl font-semibold text-blue-400 mb-2">Raw JSON Output</h3>
+      <pre className="bg-black p-4 rounded-lg overflow-auto text-sm max-h-96">
+        {JSON.stringify(metrics, null, 2)}
+      </pre>
+    </div>
+
+    {/* Table View */}
+    <h3 className="text-xl font-semibold text-blue-400 mb-3">Table View</h3>
+
+    <div className="grid grid-cols-5 gap-3 font-bold text-gray-300 border-b border-gray-700 pb-2">
+      <div>Metric</div>
+      <div>Value</div>
+      <div>Unit</div>
+      <div>Year</div>
+      <div>Source Page</div>
+      </div>
+
+      {metrics.map((m, i) => (
+        <div
+          key={i}
+          className="grid grid-cols-5 gap-3 border-b border-gray-800 py-2 text-gray-200"
+        >
+          <div>{m.metric_name}</div>
+          <div>{m.value}</div>
+          <div>{m.unit}</div>
+          <div>{m.year}</div>
+          <div>{m.source_page}</div>
+        </div>
+      ))}
+    </div>
+  )}
+
 
       {/* Replace File Modal */}
       {replacePrompt && (
