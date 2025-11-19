@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function UploadPage() {
@@ -9,16 +9,37 @@ export default function UploadPage() {
   const [year, setYear] = useState("");
   const [isUploading, setIsUploading] = useState(false);
   const [success, setSuccess] = useState(false);
+
   const [metrics, setMetrics] = useState<any[] | null>(null);
+  const [allReports, setAllReports] = useState<any[]>([]);
+  const [combinedMetrics, setCombinedMetrics] = useState<any[]>([]);
   
+  const [selectedFile, setSelectedFile] = useState("All");
+  const uniqueFiles = ["All", ...new Set(combinedMetrics.map(m => m.source_file))];
+  const filteredMetrics =
+    selectedFile === "All"
+      ? combinedMetrics
+      : combinedMetrics.filter((m) => m.source_file === selectedFile);
+
 
   const [replacePrompt, setReplacePrompt] = useState(false);
   const [pendingFormData, setPendingFormData] = useState<FormData | null>(null);
   const [statusMessage, setStatusMessage] = useState("");
 
+  useEffect(() => {
+    axios.get("http://127.0.0.1:8000/api/list_extracted")
+      .then((res) => setAllReports(res.data.reports || []))
+      .catch(() => {});
+
+    axios.get("http://127.0.0.1:8000/api/all_metrics")
+      .then((res) => setCombinedMetrics(res.data.metrics || []))
+      .catch(() => {});
+  }, []);
+
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFile(e.target.files?.[0] || null);
     setSuccess(false);
+    setMetrics(null);
   };
 
   const uploadToBackend = async (formData: FormData, force = false) => {
@@ -32,9 +53,7 @@ export default function UploadPage() {
       const response = await axios.post(
         "http://127.0.0.1:8000/api/extract",
         formData,
-        {
-          headers: { "Content-Type": "multipart/form-data" },
-        }
+        { headers: { "Content-Type": "multipart/form-data" } }
       );
 
       const data = response.data;
@@ -50,12 +69,17 @@ export default function UploadPage() {
         setMetrics(data.metrics || []);
         setSuccess(true);
         setStatusMessage("File uploaded and processed successfully.");
-        return;
+
+        const list = await axios.get("http://127.0.0.1:8000/api/list_extracted");
+        setAllReports(list.data.reports || []);
+
+        const all = await axios.get("http://127.0.0.1:8000/api/all_metrics");
+        setCombinedMetrics(all.data.metrics || []);
       }
 
-    } catch (err: any) {
+    } catch (err) {
       console.error(err);
-      setStatusMessage("❌ Upload failed. Check backend.");
+      setStatusMessage("Upload failed.");
     } finally {
       setIsUploading(false);
     }
@@ -69,7 +93,7 @@ export default function UploadPage() {
     formData.append("company", company);
     formData.append("year", year);
 
-    await uploadToBackend(formData, false); // first try without force
+    await uploadToBackend(formData, false);
   };
 
   const confirmReplace = async () => {
@@ -86,124 +110,135 @@ export default function UploadPage() {
 
   return (
     <main className="min-h-screen bg-black text-white p-10">
-      <h1 className="text-3xl font-bold text-green-500 mb-6">
+
+      <h1 className="text-3xl font-bold text-green-500 mb-10 text-center">
         Upload Sustainability Report
       </h1>
 
-      {/* Upload Card */}
-      <div className="bg-gray-900 border border-gray-700 rounded-xl p-8 w-full max-w-xl">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
-        {/* Company Name */}
-        <label className="block mb-3">
-          <span className="text-gray-300">Company Name</span>
-          <input
-            type="text"
-            value={company}
-            onChange={(e) => setCompany(e.target.value)}
-            className="mt-1 w-full p-2 bg-gray-800 border border-gray-700 rounded-lg text-white"
-            placeholder="e.g., Coca Cola"
-          />
-        </label>
+        <div className="bg-gray-900 border border-gray-700 rounded-xl p-8 w-full max-w-xl mx-auto">
+          <label className="block mb-3">
+            <span className="text-gray-300">Company Name</span>
+            <input
+              type="text"
+              value={company}
+              onChange={(e) => setCompany(e.target.value)}
+              className="mt-1 w-full p-2 bg-gray-800 border border-gray-700 rounded-lg text-white"
+            />
+          </label>
 
-        {/* Year */}
-        <label className="block mb-5">
-          <span className="text-gray-300">Report Year</span>
-          <input
-            type="number"
-            value={year}
-            onChange={(e) => setYear(e.target.value)}
-            className="mt-1 w-full p-2 bg-gray-800 border border-gray-700 rounded-lg text-white"
-            placeholder="e.g., 2024"
-          />
-        </label>
+          <label className="block mb-5">
+            <span className="text-gray-300">Report Year</span>
+            <input
+              type="number"
+              value={year}
+              onChange={(e) => setYear(e.target.value)}
+              className="mt-1 w-full p-2 bg-gray-800 border border-gray-700 rounded-lg text-white"
+            />
+          </label>
 
-        {/* File Picker */}
-        <label className="flex flex-col items-center justify-center h-40 border-2 border-dashed border-gray-600 rounded-xl cursor-pointer hover:border-green-500 transition">
-          <input type="file" accept="application/pdf" className="hidden" onChange={handleFileChange} />
-          <span className="text-gray-300">Click to select a PDF file</span>
-        </label>
+          <label className="flex flex-col items-center justify-center h-40 border-2 border-dashed 
+            border-gray-600 rounded-xl cursor-pointer hover:border-green-500 transition">
+            <input type="file" accept="application/pdf" className="hidden" onChange={handleFileChange} />
+            <span className="text-gray-300">Click to select a PDF file</span>
+          </label>
 
-        {file && (
-          <p className="text-green-400 mt-3">
-            Selected: <span className="font-semibold">{file.name}</span>
-          </p>
-        )}
+          {file && (
+            <p className="text-green-400 mt-3 font-semibold">
+              Selected: {file.name}
+            </p>
+          )}
 
-        {/* Upload Button */}
-        <button
-          onClick={handleUpload}
-          disabled={!file || !company || !year || isUploading}
-          className={`mt-5 w-full py-3 rounded-lg font-semibold transition ${
-            !file || !company || !year || isUploading
-              ? "bg-gray-700 text-gray-500 cursor-not-allowed"
-              : "bg-green-600 hover:bg-green-700"
-          }`}
-        >
-          {isUploading ? "Uploading..." : "Upload"}
-        </button>
+          <button
+            onClick={handleUpload}
+            disabled={!file || !company || !year || isUploading}
+            className={`mt-5 w-full py-3 rounded-lg font-semibold transition ${
+              !file || !company || !year || isUploading
+                ? "bg-gray-700 text-gray-500 cursor-not-allowed"
+                : "bg-green-600 hover:bg-green-700"
+            }`}
+          >
+            {isUploading ? "Uploading..." : "Upload"}
+          </button>
 
-        {/* Status message */}
-        {statusMessage && (
-          <p className="text-yellow-400 mt-4 font-semibold">{statusMessage}</p>
-        )}
-
-        {/* Success message */}
-        {success && (
-          <p className="text-green-500 mt-4 font-semibold">
-            ✔ Report processed & saved successfully!
-          </p>
-        )}
-      </div>
-
-      {metrics && (
-  <div className="mt-10 bg-gray-900 border border-gray-700 p-6 rounded-xl">
-    <h2 className="text-2xl font-bold text-green-400 mb-4">
-      📊 Extracted ESG Metrics
-    </h2>
-
-    {/* JSON View */}
-    <div className="mb-6">
-      <h3 className="text-xl font-semibold text-blue-400 mb-2">Raw JSON Output</h3>
-      <pre className="bg-black p-4 rounded-lg overflow-auto text-sm max-h-96">
-        {JSON.stringify(metrics, null, 2)}
-      </pre>
-    </div>
-
-    {/* Table View */}
-    <h3 className="text-xl font-semibold text-blue-400 mb-3">Table View</h3>
-
-    <div className="grid grid-cols-5 gap-3 font-bold text-gray-300 border-b border-gray-700 pb-2">
-      <div>Metric</div>
-      <div>Value</div>
-      <div>Unit</div>
-      <div>Year</div>
-      <div>Source Page</div>
-      </div>
-
-      {metrics.map((m, i) => (
-        <div
-          key={i}
-          className="grid grid-cols-5 gap-3 border-b border-gray-800 py-2 text-gray-200"
-        >
-          <div>{m.metric_name}</div>
-          <div>{m.value}</div>
-          <div>{m.unit}</div>
-          <div>{m.year}</div>
-          <div>{m.source_page}</div>
+          {statusMessage && (
+            <p className="text-yellow-400 mt-4 font-semibold">{statusMessage}</p>
+          )}
         </div>
-      ))}
-    </div>
-  )}
+
+        <div className="bg-gray-900 border border-gray-700 rounded-xl p-6 overflow-auto max-h-[600px]">
+          <h2 className="text-2xl font-bold text-blue-400 mb-4">📁 Extracted Reports</h2>
+
+          <div className="grid grid-cols-3 gap-3 font-bold text-gray-300 border-b border-gray-700 pb-2">
+            <div>Company</div>
+            <div>Year</div>
+            <div>File</div>
+          </div>
+
+          {allReports.map((r, i) => (
+            <div key={i} className="grid grid-cols-3 gap-3 border-b border-gray-800 py-2 text-gray-200">
+              <div>{r.company}</div>
+              <div>{r.year}</div>
+              <div className="truncate">{r.path}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-16 bg-gray-900 border border-gray-700 p-6 rounded-xl">
+
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-2xl font-bold text-green-400">
+            📊 All Extracted Metrics
+          </h2>
+
+          <div className="flex items-center gap-2">
+            <span className="text-gray-300 font-semibold">Filter:</span>
+            <select
+              value={selectedFile}
+              onChange={(e) => setSelectedFile(e.target.value)}
+              className="p-2 bg-gray-800 border border-gray-700 rounded-lg text-white"
+            >
+              {uniqueFiles.map((file, idx) => (
+                <option key={idx} value={file}>
+                  {file}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
 
 
-      {/* Replace File Modal */}
+        <div className="grid grid-cols-6 gap-3 font-bold text-gray-300 border-b border-gray-700 pb-2">
+          <div>Metric</div>
+          <div>Value</div>
+          <div>Unit</div>
+          <div>Year</div>
+          <div>Source Page</div>
+          <div>File</div>
+        </div>
+
+        <div className="max-h-[450px] overflow-y-scroll pr-2 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-800">
+          {filteredMetrics.map((m, i) => (
+            <div key={i} className="grid grid-cols-6 gap-3 border-b border-gray-800 py-2 text-gray-200">
+              <div>{m.metric_name}</div>
+              <div>{m.value}</div>
+              <div>{m.unit}</div>
+              <div>{m.year}</div>
+              <div>{m.source_page}</div>
+              <div>{m.source_file}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {replacePrompt && (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center">
           <div className="bg-gray-800 p-6 rounded-xl border border-gray-600 max-w-sm">
             <h2 className="text-xl font-bold text-red-400 mb-3">File Already Exists</h2>
             <p className="text-gray-300 mb-5">
-              A report for this company and year already exists.  
-              Do you want to replace it?
+              A report for this company and year already exists.<br />Replace it?
             </p>
 
             <div className="flex gap-3">

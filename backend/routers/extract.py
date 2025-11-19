@@ -59,3 +59,40 @@ async def extract_metrics_endpoint(
     finally:
         if temp_path.exists():
             temp_path.unlink()
+
+@router.get("/list_extracted")
+def list_extracted():
+    extracted_dir = Path("data/extracted")
+    extracted_dir.mkdir(parents=True, exist_ok=True)
+
+    reports = []
+    for file in extracted_dir.glob("*.json"):
+        name = file.stem   # example: coca_cola_2024
+        parts = name.split("_")
+        company = "_".join(parts[:-1])
+        year = parts[-1]
+
+        reports.append({
+            "company": company,
+            "year": year,
+            "path": str(file)
+        })
+
+    return {"reports": reports}
+
+@router.get("/all_metrics")
+def all_metrics():
+    extracted_dir = Path("data/extracted")
+    extracted_dir.mkdir(parents=True, exist_ok=True)
+
+    combined = []
+
+    for file in extracted_dir.glob("*.json"):
+        with open(file, "r") as f:
+            metrics = json.load(f)
+
+        for m in metrics:
+            m["source_file"] = file.stem
+            combined.append(m)
+
+    return {"metrics": combined}

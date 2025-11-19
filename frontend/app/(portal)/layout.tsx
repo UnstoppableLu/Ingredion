@@ -1,10 +1,8 @@
-// app/(portal)/layout.tsx
 import Link from "next/link";
 
 export default function PortalLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex">
-      {/* SIDEBAR */}
       <aside className="fixed left-0 top-0 h-screen w-60 bg-gray-900 border-r border-green-700 p-6 flex flex-col">
         <h1 className="text-2xl font-bold text-green-500 mb-8">Ingredion Portal</h1>
 
@@ -15,7 +13,6 @@ export default function PortalLayout({ children }: { children: React.ReactNode }
         </nav>
       </aside>
 
-      {/* MAIN CONTENT */}
       <main className="ml-60 flex-1 overflow-y-auto p-10">
         {children}
       </main>
