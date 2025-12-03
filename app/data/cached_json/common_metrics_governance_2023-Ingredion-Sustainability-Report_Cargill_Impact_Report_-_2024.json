@@ -1,0 +1,68 @@
+[
+  {
+    "common_metric": "Governance Structure and Board Oversight",
+    "dataset_1": [
+      {
+        "metric": "Governance structure and composition",
+        "value": "Ingredion Incorporated Corporate Governance Principles, 2023 Annual Report, Board of Directors (Ingredion website)",
+        "category": "Governance"
+      },
+      {
+        "metric": "Role of the highest governance body in overseeing the management of impacts",
+        "value": "2023 Sustainability Report, Ingredion Incorporated Corporate Governance Principles and Nominating Committee Charter",
+        "category": "Governance"
+      },
+      {
+        "metric": "Delegation of responsibility for managing impacts",
+        "value": "2023 Sustainability Report",
+        "category": "Governance"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Board oversight",
+        "value": null,
+        "category": "Governance"
+      }
+    ]
+  },
+  {
+    "common_metric": "Code of Conduct and Ethics",
+    "dataset_1": [
+      {
+        "metric": "Completion rate of annual Code of Conduct training",
+        "value": ">98%",
+        "category": "Governance"
+      },
+      {
+        "metric": "Communication and training about anti-corruption policies and procedures",
+        "value": "All employees receive ethics training and sign-off on Ingredion's Code of Conduct, as well as our company values.",
+        "category": "Governance"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Code of Conduct",
+        "value": "Implemented",
+        "category": "Governance"
+      }
+    ]
+  },
+  {
+    "common_metric": "Compliance with Laws, Regulations, and Policies",
+    "dataset_1": [
+      {
+        "metric": "Compliance with laws and regulations",
+        "value": "Ingredion discloses fines and non-monetary sanctions as required by the laws and regulations applicable to its operations including, among others, SEC reporting requirements.",
+        "category": "Governance"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric": "Compliance policies",
+        "value": "200+ updated",
+        "category": "Governance"
+      }
+    ]
+  }
+]

@@ -1,37 +1,103 @@
-# Introduction
-### Goal
+# 🌿 ESG Data Extraction and Comparison App
 
-The objective of this project is to automate the extraction of sustainability and ESG (Environmental, Social, and Governance) data from company reports—typically published as unstructured PDF documents. These reports often contain valuable quantitative metrics (e.g., greenhouse gas emissions, renewable energy usage, water consumption, and workforce diversity), but extracting them manually is time-consuming and error-prone.
+## 📘 Overview
 
-This repository contains a data extraction pipeline that converts unstructured sustainability reports into structured, machine-readable datasets, enabling further analysis, comparison, and visualization.
+This project automates the extraction, structuring, and visualization of **sustainability and ESG (Environmental, Social, Governance)** metrics from company PDF reports.  
+It enables users to upload multiple sustainability reports, automatically extract comparable metrics using **Google Gemini API**, and interactively **compare and visualize** the results in a Streamlit dashboard.
 
-# Challenges
+---
 
-Sustainability reports present several technical challenges for automated data extraction:
+## 🎯 **Goal**
 
-Unstructured Format:
-Most reports are designed for human readability, not machine parsing. Text is embedded within complex layouts, tables, and mixed formatting, which makes direct parsing difficult.
+The goal of this project is to make ESG data—often locked inside lengthy, unstructured PDF reports—**machine-readable and comparable** across companies.  
 
-Inconsistent Terminology:
-Companies use varied naming conventions for similar metrics (e.g., “Scope 1 CO₂ emissions” vs. “Direct GHG emissions”), complicating rule-based extraction.
+This app provides:
+- Automated text extraction and contextual understanding  
+- Identification of **common sustainability metrics** (e.g., GHG emissions, renewable energy, diversity ratios)  
+- Structured tabular data export (CSV, Excel)  
+- Interactive visualizations to compare performance between companies  
 
-Context Ambiguity:
-Numeric data often lacks context when extracted without surrounding text. For instance, “1,200” could refer to tons of CO₂ or MWh of energy, depending on the section.
+---
 
-Data Scattering Across Pages:
-Key metrics may appear in different sections—environmental, social, or governance—requiring contextual understanding to correctly associate them.
+## ⚙️ **Key Features**
 
-# Tools and Technologies
+| Feature | Description |
+|----------|-------------|
+| **PDF Upload** | Upload multiple ESG or sustainability reports (PDF). |
+| **Automatic Metric Extraction** | Uses the **Gemini API** to extract structured ESG metrics in JSON format. |
+| **Common Metric Detection** | Compares reports to find shared KPIs across datasets. |
+| **Caching** | Automatically caches processed results for faster reloading. |
+| **Interactive Visualization** | View, compare, and analyze metrics using bar charts, radar charts, heatmaps, and tables. |
+| **Column Selection** | Select specific datasets and metrics to visualize. |
 
-To overcome these challenges, the following tools and frameworks were integrated into the workflow:
+---
 
-### Tool & Purpose
-+ PyMuPDF (fitz):	Extracts raw text content from PDF files while preserving basic structure and layout.
-+ LangChain:	Manages document chunking, prompt orchestration, and communication with the language model for contextual analysis.
-+ Gemini API (Google Generative AI):	Performs semantic understanding of extracted text, identifying and structuring sustainability metrics in tabular JSON format.
-+ Pandas:	Normalizes, cleans, and aggregates the extracted metrics into a structured DataFrame for analysis and export.
-# Outcome
+## 🧰 **Tools and Technologies**
 
-The final output is a structured dataset (in Excel format) containing key sustainability indicators extracted from the report, along with contextual information such as metric category, units, and description. This pipeline streamlines ESG data collection and enables scalable sustainability analytics across multiple companies.
+| Tool | Purpose |
+|------|----------|
+| **PyMuPDF (fitz)** | Extracts text from PDF files while preserving structure. |
+| **LangChain** | Manages text chunking and LLM prompt orchestration. |
+| **Google Gemini API** | Understands context and extracts ESG metrics semantically. |
+| **Pandas** | Cleans, aggregates, and formats metrics into structured tables. |
+| **Streamlit** | Provides an interactive user interface for exploration and visualization. |
+| **Plotly** | Creates dynamic, interactive charts for comparing ESG data. |
+
+---
+
+## **Challenges
+In order to extract more metrics from the pdf reports
+
+## 📂 **Project Structure**
+
+app/
+│
+|-- .venv
+├── app.py # Main Streamlit application
+├── utils/
+│ ├── extraction.py # Functions for PDF text extraction and preprocessing
+│ ├── comparison.py # Finds common metrics across extracted datasets
+│ └── visualization.py # Generates dynamic charts (bar, radar, heatmap)
+│
+├── extracted_results/ # Cached CSV/JSON results from processed PDFs
+├── example_reports/ # Example sustainability PDFs for testing
+├── requirements.txt # Python dependencies
+
+
+
+---
+
+## 🧠 **How It Works**
+
+1. **Upload Reports**  
+   Users upload one or more PDF sustainability reports through the Streamlit interface.
+
+2. **Text Extraction**  
+   The app extracts text using PyMuPDF and sends it to the Gemini API for contextual analysis.
+
+3. **Metric Structuring**  
+   Gemini returns structured ESG metrics in JSON format, which are normalized with Pandas.
+
+4. **Common Metric Matching**  
+   The app compares all reports to find metrics shared between companies.
+
+5. **Visualization & Comparison**  
+   Users can select metrics, datasets, and chart types (Bar, Heatmap, Radar, Table, Dot Plot) to visualize differences interactively.
+
+---
+
+## 🧩 **Installation**
+
+### **1. Clone the Repository **
+```bash
+git clone 
+cd app
+
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+streamlit run main.py
+
 
 

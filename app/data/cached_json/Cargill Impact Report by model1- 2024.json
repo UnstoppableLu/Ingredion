@@ -1,0 +1,324 @@
+[
+  {
+    "metric_name": "Reduction in greenhouse gas emissions from operations (Scope 1 & 2)",
+    "value": 15.8,
+    "unit": "%",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Land transitioned to regenerative agriculture in North America (cumulative since 2020)",
+    "value": 1100000,
+    "unit": "acres",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Investment in partners and local communities",
+    "value": 130000000,
+    "unit": "USD",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Farmer trainings delivered in fiscal year",
+    "value": 700000,
+    "unit": "trainings",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Water restored in water-stressed regions",
+    "value": 38000000000,
+    "unit": "liters",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Farmer trainings delivered (cumulative since 2017)",
+    "value": 7200000,
+    "unit": "trainings",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Meals provided through corporate giving",
+    "value": 34000000,
+    "unit": "meals",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Women in leadership roles",
+    "value": 35.7,
+    "unit": "%",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Investment in efficiency and sustainability capital projects",
+    "value": 100000000,
+    "unit": "USD",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Scope 3 emissions reduced through supply chain sustainability programs",
+    "value": 670000,
+    "unit": "metric tons CO2e",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Implementation of water stewardship practices at priority facilities",
+    "value": 85,
+    "unit": "%",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Progress toward a water positive impact in priority regions",
+    "value": 14.8,
+    "unit": "%",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "People reached through Hatching Hope Global Initiative (cumulative since 2018)",
+    "value": 26900000,
+    "unit": "people",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Increase in contracted renewable energy capacity since early 2023",
+    "value": 42,
+    "unit": "%",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Total renewable electricity capacity",
+    "value": 716,
+    "unit": "megawatts",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Emission reductions from renewable electricity mix",
+    "value": 908000,
+    "unit": "metric tons CO2e",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Land restored globally (cumulative since 2021)",
+    "value": 435000,
+    "unit": "acres",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Pollutant reductions enabled in water-stressed regions",
+    "value": 297,
+    "unit": "metric tons",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "People reached with improved access to safe drinking water and sanitation (cumulative since 2020)",
+    "value": 160000,
+    "unit": "people",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Company-wide Reportable Injury Frequency Rate (RIFR)",
+    "value": 1.35,
+    "unit": "RIFR",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Employee engagement (positive levels)",
+    "value": 88,
+    "unit": "%",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Employees agreeing an inclusive workplace is being created",
+    "value": 81,
+    "unit": "%",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "U.S. minority hires in University Intern and Associate roles",
+    "value": 33,
+    "unit": "%",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Facilities with gender-inclusive uniform options",
+    "value": 91.4,
+    "unit": "%",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Farmers trained on animal health and farm productivity (TRANSFORM program)",
+    "value": 89000,
+    "unit": "farmers",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Volunteer hours contributed by employees",
+    "value": 64000,
+    "unit": "hours",
+    "year": 2024,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Energy use reduction per metric ton of coldwater feed production (vs 2017)",
+    "value": 8.6,
+    "unit": "%",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Marine ingredients in coldwater feeds from certified or FIP sources",
+    "value": 89.5,
+    "unit": "%",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Marine ingredients in warmwater feeds from certified or FIP sources",
+    "value": 62.2,
+    "unit": "%",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Total CO2e reduced for aquafeed customers (SeaFurther)",
+    "value": 15000,
+    "unit": "metric tons CO2e",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Cocoa supply chain farms polygon mapped (Promise supply chain)",
+    "value": 92.2,
+    "unit": "%",
+    "year": 2024,
+    "category": "Governance"
+  },
+  {
+    "metric_name": "Cocoa farms with primary forest loss after Jan 2014 (Promise supply chain)",
+    "value": 0.8,
+    "unit": "%",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Hectares of primary forest loss on cocoa farms after Jan 2014 (Promise supply chain)",
+    "value": 2270,
+    "unit": "hectares",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Sustainable cocoa volume sold",
+    "value": 54,
+    "unit": "%",
+    "year": 2024,
+    "category": "Governance"
+  },
+  {
+    "metric_name": "Palm oil traceability to plantation (TTP)",
+    "value": 77,
+    "unit": "%",
+    "year": 2023,
+    "category": "Governance"
+  },
+  {
+    "metric_name": "Palm oil traceable mills covered by satellite monitoring",
+    "value": 99,
+    "unit": "%",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Direct palm oil suppliers with human rights commitments in NDPE policy",
+    "value": 82,
+    "unit": "%",
+    "year": 2023,
+    "category": "Social"
+  },
+  {
+    "metric_name": "Soy volume estimated to be Deforestation and Conversion Free (DCF) in Brazil (2020 reference date)",
+    "value": 99.3,
+    "unit": "%",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Land monitored in South America for certification and verification programs (e.g. 3S)",
+    "value": 4250000,
+    "unit": "hectares",
+    "year": 2023,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Gross global Scope 1 emissions",
+    "value": 6390000,
+    "unit": "metric tons CO2-e",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Total water withdrawn",
+    "value": 322000000,
+    "unit": "cubic meters",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Total water consumed",
+    "value": 65500000,
+    "unit": "cubic meters",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Sourced agricultural products certified to a third-party environmental/social standard (Palm)",
+    "value": 28,
+    "unit": "%",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Sourced agricultural products certified to a third-party environmental/social standard (Soy)",
+    "value": 8.5,
+    "unit": "%",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Sourced agricultural products certified to a third-party environmental/social standard (Cocoa)",
+    "value": 50,
+    "unit": "%",
+    "year": 2024,
+    "category": "Environmental"
+  },
+  {
+    "metric_name": "Laying hens free from close confinement (cage-free)",
+    "value": 65,
+    "unit": "%",
+    "year": 2024,
+    "category": "Social"
+  }
+]

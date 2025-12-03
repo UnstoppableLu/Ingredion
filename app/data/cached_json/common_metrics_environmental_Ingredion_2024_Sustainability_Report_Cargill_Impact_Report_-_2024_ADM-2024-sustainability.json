@@ -1,0 +1,1481 @@
+[
+  {
+    "common_metric": "GHG Emissions Reduction (Scopes 1 & 2)",
+    "dataset_1": [
+      {
+        "metric_name": "Carbon emissions reduction",
+        "value": "22",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 2"
+      },
+      {
+        "metric_name": "Scope 1 and 2 GHG emissions reduction",
+        "value": "28",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Carbon Footprint Reduction",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 21"
+      },
+      {
+        "metric_name": "carbon footprint",
+        "value": "50",
+        "unit": "%",
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 22"
+      },
+      {
+        "metric_name": "Scope 1 and 2 emissions reduction",
+        "value": "significant",
+        "unit": "magnitude",
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 26"
+      },
+      {
+        "metric_name": "STBi Scopes 1 and 2 GHG reduction goal",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 27"
+      },
+      {
+        "metric_name": "Carbon footprint reduction",
+        "value": "47",
+        "unit": "%",
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 40"
+      },
+      {
+        "metric_name": "Carbon emissions reductions",
+        "value": "progress",
+        "unit": null,
+        "year": "This year",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 51"
+      },
+      {
+        "metric_name": "Direct (Scope 1) GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 65"
+      },
+      {
+        "metric_name": "Energy indirect (Scope 2) GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 65"
+      },
+      {
+        "metric_name": "GHG emission intensity",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 65"
+      },
+      {
+        "metric_name": "Reductions of GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 65"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric_name": "Reducing emissions",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 2"
+      },
+      {
+        "metric_name": "Greenhouse gas emissions decrease",
+        "value": "15.8",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 3"
+      },
+      {
+        "metric_name": "reduction in Scope 1 and 2 emissions from 2017 baseline",
+        "value": "15.8",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 6"
+      },
+      {
+        "metric_name": "Greenhouse gas emissions reduction",
+        "value": "reduce",
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 10"
+      },
+      {
+        "metric_name": "Reduce absolute operational greenhouse gas (GHG) emissions by",
+        "value": "10",
+        "unit": "%",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 12"
+      },
+      {
+        "metric_name": "Reduction in Scope 1 and 2 emissions",
+        "value": "15.8",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 13"
+      },
+      {
+        "metric_name": "Reduce our absolute operational emissions",
+        "value": "10",
+        "unit": "%",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 14"
+      },
+      {
+        "metric_name": "Scope 1 and 2 emissions reduction",
+        "value": "15.8",
+        "unit": "%",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 15"
+      },
+      {
+        "metric_name": "Goal: Reduce absolute operational GHG emissions",
+        "value": "10",
+        "unit": "%",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 15"
+      },
+      {
+        "metric_name": "Scope 1 and 2 emissions reduction progress",
+        "value": "10.97",
+        "unit": "%",
+        "year": "2022",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 15"
+      },
+      {
+        "metric_name": "Scope 1 and 2 emissions reduction progress",
+        "value": "15.84",
+        "unit": "%",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 15"
+      },
+      {
+        "metric_name": "carbon emissions",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 16"
+      },
+      {
+        "metric_name": "Carbon emissions reduction",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 49"
+      },
+      {
+        "metric_name": "GHG emissions",
+        "value": "reduces",
+        "unit": "unit",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 25"
+      },
+      {
+        "metric_name": "GHG emission reduction",
+        "value": "270000",
+        "unit": "metric tons of CO2e",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 72"
+      },
+      {
+        "metric_name": "Scope 1 and 2 GHG emissions reduction",
+        "value": "10",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 73"
+      },
+      {
+        "metric_name": "Scope 1 and 2 emissions reduction",
+        "value": "10.97",
+        "unit": "%",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 74"
+      },
+      {
+        "metric_name": "Scope 1 and 2 emissions reduction",
+        "value": "15.8",
+        "unit": "%",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 74"
+      },
+      {
+        "metric_name": "Scope 1 GHG emissions",
+        "value": "total",
+        "unit": "unit",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 86"
+      },
+      {
+        "metric_name": "Scope 2 GHG emissions",
+        "value": "total",
+        "unit": "unit",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 86"
+      },
+      {
+        "metric_name": "Scope 1 emissions",
+        "value": "6390000",
+        "unit": "Metric tons (t) CO -e",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 88"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric_name": "Carbon Footprint",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 2"
+      },
+      {
+        "metric_name": "Scope 1 + 2 GHG emissions reduction",
+        "value": "14.5",
+        "unit": "%",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 3"
+      },
+      {
+        "metric_name": "Carbon footprint reduction",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 8"
+      },
+      {
+        "metric_name": "Scope 1 + 2 GHG Emissions",
+        "value": null,
+        "unit": null,
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 10"
+      },
+      {
+        "metric_name": "Scope 1 + 2 GHG emissions",
+        "value": "25",
+        "unit": "% absolute reduction",
+        "year": 2035.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 14"
+      },
+      {
+        "metric_name": "Scope 1 Emissions",
+        "value": "12.3",
+        "unit": "MT",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 15"
+      },
+      {
+        "metric_name": "Scope 2 Emissions",
+        "value": "2.15",
+        "unit": "MT",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 15"
+      },
+      {
+        "metric_name": "Scope 1 + 2 GHG emissions reduction",
+        "value": "3000",
+        "unit": "metric tons of CO2e per year",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 16"
+      },
+      {
+        "metric_name": "Scope 1 GHG Emissions",
+        "value": "12300000",
+        "unit": "mtCOe",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 37"
+      },
+      {
+        "metric_name": "Scope 2 (Market-based) GHG Emissions",
+        "value": "2150000",
+        "unit": "mtCOe",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 37"
+      },
+      {
+        "metric_name": "Direct (Scope 1) GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 44"
+      },
+      {
+        "metric_name": "Energy indirect (Scope 2) GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 44"
+      },
+      {
+        "metric_name": "Reduction of GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 44"
+      }
+    ]
+  },
+  {
+    "common_metric": "GHG Emissions Reduction (Scope 3)",
+    "dataset_1": [
+      {
+        "metric_name": "Scope 3 GHG emissions reduction",
+        "value": "15",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Other indirect (Scope 3) GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 65"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric_name": "Reduce global GHG emissions from our global supply chain sustainability programs",
+        "value": "30",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 12"
+      },
+      {
+        "metric_name": "Reduce emissions from our global supply chain",
+        "value": "30",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 14"
+      },
+      {
+        "metric_name": "Scope 3 emissions reduction goal",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 16"
+      },
+      {
+        "metric_name": "Decarbonization of agricultural supply chain",
+        "value": null,
+        "unit": "practices",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 26"
+      },
+      {
+        "metric_name": "Scope 3 GHG emissions reduction",
+        "value": "30",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 73"
+      },
+      {
+        "metric_name": "Scope 3 GHG emissions reduction",
+        "value": "670000",
+        "unit": "metric tons",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 74"
+      },
+      {
+        "metric_name": "Scope 3 GHG emissions",
+        "value": "reported",
+        "unit": "unit",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 86"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric_name": "Scope 3 GHG Emissions",
+        "value": null,
+        "unit": null,
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 10"
+      },
+      {
+        "metric_name": "Scope 3 GHG emissions",
+        "value": "25",
+        "unit": "% absolute reduction",
+        "year": 2035.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 14"
+      },
+      {
+        "metric_name": "Scope 3 Emissions",
+        "value": "116.5",
+        "unit": "M",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 15"
+      },
+      {
+        "metric_name": "Scope 3 GHG footprint reduction",
+        "value": "1000000",
+        "unit": "metric tons of CO2e",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 22"
+      },
+      {
+        "metric_name": "Scope 3 GHG Emissions",
+        "value": "114100000",
+        "unit": "mtCOe",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 37"
+      },
+      {
+        "metric_name": "Other indirect (Scope 3) GHG emissions",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 44"
+      }
+    ]
+  },
+  {
+    "common_metric": "Water Management & Conservation",
+    "dataset_1": [
+      {
+        "metric_name": "Water use intensity reduction",
+        "value": "30",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Water conservation projects with growers in extremely high water-stressed sourcing geographies",
+        "value": "100",
+        "unit": "%",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 7"
+      },
+      {
+        "metric_name": "Water Footprint Reduction",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 21"
+      },
+      {
+        "metric_name": "Water consumption increase",
+        "value": "2",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 29"
+      },
+      {
+        "metric_name": "Water risk rating",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 33"
+      },
+      {
+        "metric_name": "Site water use intensity",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 33"
+      },
+      {
+        "metric_name": "Blue water usage reduction",
+        "value": "6",
+        "unit": "%",
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 40"
+      },
+      {
+        "metric_name": "Water withdrawal by source",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 64"
+      },
+      {
+        "metric_name": "Water sources significantly impacted by withdrawal of water",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 64"
+      },
+      {
+        "metric_name": "Water recycled and reused",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 64"
+      },
+      {
+        "metric_name": "Water consumption",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 64"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric_name": "Water",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 2"
+      },
+      {
+        "metric_name": "liters of water restored in water-stressed regions",
+        "value": "38",
+        "unit": "billion",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 6"
+      },
+      {
+        "metric_name": "Average implementation of water stewardship",
+        "value": "85",
+        "unit": "%",
+        "year": null,
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 12"
+      },
+      {
+        "metric_name": "Implement water stewardship practices at all 68 priority facilities",
+        "value": "100",
+        "unit": "%",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 12"
+      },
+      {
+        "metric_name": "Enable a water positive impact in all priority regions by",
+        "value": "100",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 12"
+      },
+      {
+        "metric_name": "Water risk assessment",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 21"
+      },
+      {
+        "metric_name": "Water quality",
+        "value": "improves",
+        "unit": "unit",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 25"
+      },
+      {
+        "metric_name": "Water conservation through regenerative agriculture",
+        "value": null,
+        "unit": "practices",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 26"
+      },
+      {
+        "metric_name": "Water stewardship practices implementation",
+        "value": "85",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 28"
+      },
+      {
+        "metric_name": "Water restoration",
+        "value": "297",
+        "unit": "metric tons",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 28"
+      },
+      {
+        "metric_name": "Water reduction",
+        "value": "600",
+        "unit": "billion liters",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 28"
+      },
+      {
+        "metric_name": "Reduced water use",
+        "value": "100000000",
+        "unit": "liters",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 28"
+      },
+      {
+        "metric_name": "Water quality improvement",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 80"
+      },
+      {
+        "metric_name": "Total water withdrawn",
+        "value": "322000",
+        "unit": "Thousand cubic meters (m3)",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 88"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric_name": "Freshwater",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 2"
+      },
+      {
+        "metric_name": "Water withdrawal reduction",
+        "value": "3.6",
+        "unit": "%",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 3"
+      },
+      {
+        "metric_name": "Reduced water withdrawal",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 8"
+      },
+      {
+        "metric_name": "Water Management",
+        "value": null,
+        "unit": null,
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 10"
+      },
+      {
+        "metric_name": "Water withdrawal",
+        "value": "10",
+        "unit": "% absolute reduction",
+        "year": 2035.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 14"
+      },
+      {
+        "metric_name": "Water withdrawal reduction target",
+        "value": "10",
+        "unit": "%",
+        "year": 2035.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 18"
+      },
+      {
+        "metric_name": "Water withdrawal",
+        "value": "111.3",
+        "unit": "million cubic meters",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 18"
+      },
+      {
+        "metric_name": "water reuse goals",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 33"
+      },
+      {
+        "metric_name": "Water Withdrawal from Groundwater",
+        "value": "39500000",
+        "unit": "m3",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 37"
+      },
+      {
+        "metric_name": "Water Withdrawal from Surface",
+        "value": "30600000",
+        "unit": "m3",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 37"
+      },
+      {
+        "metric_name": "Water Withdrawal from Municipal",
+        "value": "41100000",
+        "unit": "m3",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 37"
+      },
+      {
+        "metric_name": "Water withdrawal",
+        "value": null,
+        "unit": null,
+        "year": 2018.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 43"
+      },
+      {
+        "metric_name": "Water consumption",
+        "value": null,
+        "unit": null,
+        "year": 2018.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 43"
+      }
+    ]
+  },
+  {
+    "common_metric": "Regenerative & Sustainable Agriculture",
+    "dataset_1": [
+      {
+        "metric_name": "Sustainably sourced Tier 1 priority crops",
+        "value": "85",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 2"
+      },
+      {
+        "metric_name": "Sustainable and Regenerative Agriculture",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 3"
+      },
+      {
+        "metric_name": "Sustainable use of forest-based resources",
+        "value": "100",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Sustainable sourcing of global waxy corn supply",
+        "value": "100",
+        "unit": "%",
+        "year": "2022",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 7"
+      },
+      {
+        "metric_name": "Sustainable sourcing of Tier 1 priority crops",
+        "value": "100",
+        "unit": "%",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 7"
+      },
+      {
+        "metric_name": "Sustainable sourcing of Tier 1 and 2 priority crops",
+        "value": "100",
+        "unit": "%",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 7"
+      },
+      {
+        "metric_name": "Sustainable Agriculture Initiative (SAI) Platform's Farm Sustainability Assessment (FSA)",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 24"
+      },
+      {
+        "metric_name": "Sustainably Sourced Tier 1 Crops",
+        "value": "85",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 28"
+      },
+      {
+        "metric_name": "Acres of Crops in Regenerative Programs",
+        "value": "74000",
+        "unit": "acres",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 28"
+      },
+      {
+        "metric_name": "Sustainable agriculture (% FSA validation)",
+        "value": null,
+        "unit": "%",
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 33"
+      },
+      {
+        "metric_name": "Regenerative agriculture implementation",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 33"
+      },
+      {
+        "metric_name": "Sustainably sourced crops",
+        "value": "85",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 36"
+      },
+      {
+        "metric_name": "Regenerative agriculture acreage",
+        "value": "74000",
+        "unit": "acres",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 38"
+      },
+      {
+        "metric_name": "Sustainable sourcing",
+        "value": "progress",
+        "unit": null,
+        "year": "This year",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 51"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric_name": "Scaling regenerative agriculture",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 2"
+      },
+      {
+        "metric_name": "Regenerative agriculture adoption",
+        "value": "1.1",
+        "unit": "million acres",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 3"
+      },
+      {
+        "metric_name": "acres transitioned to regenerative agriculture practices across North America since 2020",
+        "value": "1.1",
+        "unit": "million",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 6"
+      },
+      {
+        "metric_name": "Acres transitioned to regenerative agriculture practices",
+        "value": "1199",
+        "unit": "acres",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 19"
+      },
+      {
+        "metric_name": "Regenerative agriculture practices",
+        "value": "299,000+",
+        "unit": "acres",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 23"
+      },
+      {
+        "metric_name": "Regenerating acres",
+        "value": "1100000",
+        "unit": "acres",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 24"
+      },
+      {
+        "metric_name": "Advance regenerative agriculture practices",
+        "value": "10000000",
+        "unit": "acres",
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 24"
+      },
+      {
+        "metric_name": "Soil health enhancement through regenerative agriculture",
+        "value": null,
+        "unit": "practices",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 26"
+      },
+      {
+        "metric_name": "Soil health improvement",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 80"
+      },
+      {
+        "metric_name": "Hectares of regenerative agriculture programs",
+        "value": "74000",
+        "unit": "hectares",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 81"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric_name": "Regenerative agriculture program acreage",
+        "value": "5",
+        "unit": "million acres",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 3"
+      },
+      {
+        "metric_name": "Regenerative agriculture",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 8"
+      },
+      {
+        "metric_name": "Regenerative Conversion",
+        "value": null,
+        "unit": null,
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 10"
+      },
+      {
+        "metric_name": "Soil health",
+        "value": "Improving",
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 20"
+      },
+      {
+        "metric_name": "Regenerative agriculture acres",
+        "value": "5000000",
+        "unit": "acres",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 22"
+      }
+    ]
+  },
+  {
+    "common_metric": "Deforestation Prevention",
+    "dataset_1": [
+      {
+        "metric_name": "FSA-identified deforestation consideration",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 33"
+      },
+      {
+        "metric_name": "Deforestation",
+        "value": "85",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 34"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric_name": "Eliminate deforestation across our agricultural supply chain by",
+        "value": "2030",
+        "unit": null,
+        "year": "2030",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 12"
+      },
+      {
+        "metric_name": "Deforestation elimination commitment",
+        "value": "2025",
+        "unit": null,
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 20"
+      },
+      {
+        "metric_name": "Deforestation monitoring",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 21"
+      },
+      {
+        "metric_name": "deforestation-free goal",
+        "value": "2030",
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 22"
+      },
+      {
+        "metric_name": "Deforestation-free soy supply chain",
+        "value": "100",
+        "unit": "%",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 79"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric_name": "Deforestation-free supply chain target",
+        "value": "end of 2025",
+        "unit": null,
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 3"
+      },
+      {
+        "metric_name": "No-deforestation",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 8"
+      },
+      {
+        "metric_name": "No-conversion",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 8"
+      },
+      {
+        "metric_name": "Deforestation",
+        "value": null,
+        "unit": null,
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 10"
+      },
+      {
+        "metric_name": "No-deforestation policy establishment",
+        "value": "2015",
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 21"
+      },
+      {
+        "metric_name": "Deforestation elimination target",
+        "value": "2030",
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 21"
+      }
+    ]
+  },
+  {
+    "common_metric": "Biodiversity Protection",
+    "dataset_1": [
+      {
+        "metric_name": "Biodiversity Protection",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 3"
+      },
+      {
+        "metric_name": "Biodiversity impact assessment",
+        "value": "1",
+        "unit": "assessment",
+        "year": "2022",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Agricultural biodiversity risk assessment",
+        "value": "1",
+        "unit": "assessment",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Net positive impact projects on endangered species",
+        "value": "1",
+        "unit": "project",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Biodiversity conservation programs implementation",
+        "value": "1",
+        "unit": "program",
+        "year": "2025",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 6"
+      },
+      {
+        "metric_name": "Biodiversity impact",
+        "value": "not identified",
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 32"
+      },
+      {
+        "metric_name": "Significant impacts of activities, products and services on biodiversity",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 64"
+      },
+      {
+        "metric_name": "Habitats protected or restored",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 64"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric_name": "habitat for jaguars in soy-adjacent areas",
+        "value": "3",
+        "unit": "million hectares",
+        "year": null,
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 22"
+      },
+      {
+        "metric_name": "Biodiversity",
+        "value": "enhances",
+        "unit": "unit",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 25"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric_name": "Biodiversity",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 2"
+      },
+      {
+        "metric_name": "Protect biodiversity",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 8"
+      },
+      {
+        "metric_name": "Biodiversity",
+        "value": "Maximizing",
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 20"
+      },
+      {
+        "metric_name": "Significant impacts of activities, products and services on biodiversity",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 43"
+      },
+      {
+        "metric_name": "Habitats protected or restored",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 43"
+      }
+    ]
+  },
+  {
+    "common_metric": "Energy Management & Efficiency",
+    "dataset_1": [
+      {
+        "metric_name": "Renewable electricity",
+        "value": "32",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 29"
+      },
+      {
+        "metric_name": "Energy consumption within the organization",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 63"
+      },
+      {
+        "metric_name": "Energy intensity",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 63"
+      },
+      {
+        "metric_name": "Reduction in energy consumption",
+        "value": null,
+        "unit": null,
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Ingredion 2024 Sustainability Report.pdf - page 63"
+      }
+    ],
+    "dataset_2": [
+      {
+        "metric_name": "invested in efficiency and sustainability capital projects",
+        "value": "100",
+        "unit": "million",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 6"
+      },
+      {
+        "metric_name": "Increase in contracted renewable energy capacity",
+        "value": "42",
+        "unit": "%",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 13"
+      },
+      {
+        "metric_name": "Renewable electricity capacity",
+        "value": "716",
+        "unit": "megawatts",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 15"
+      },
+      {
+        "metric_name": "Energy Use in coldwater feed production",
+        "value": "134000",
+        "unit": "gigajoules",
+        "year": "2023",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 52"
+      },
+      {
+        "metric_name": "Decline in energy use per metric ton",
+        "value": "8.6",
+        "unit": "%",
+        "year": "2017",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 52"
+      },
+      {
+        "metric_name": "Operational energy consumed",
+        "value": "181000000",
+        "unit": "Gigajoules (GJ)",
+        "year": "2024",
+        "category": "Environmental",
+        "source": "Cargill Impact Report - 2024.pdf - page 88"
+      }
+    ],
+    "dataset_3": [
+      {
+        "metric_name": "Energy",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 2"
+      },
+      {
+        "metric_name": "Energy intensity reduction",
+        "value": "6.6",
+        "unit": "%",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 3"
+      },
+      {
+        "metric_name": "Energy efficiency",
+        "value": null,
+        "unit": null,
+        "year": null,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 8"
+      },
+      {
+        "metric_name": "Energy intensity",
+        "value": "15",
+        "unit": "% reduction",
+        "year": 2035.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 14"
+      },
+      {
+        "metric_name": "Renewable and low-carbon energy out of total energy use",
+        "value": "25",
+        "unit": "% usage",
+        "year": 2035.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 14"
+      },
+      {
+        "metric_name": "Low-Carbon Energy Usage",
+        "value": "25",
+        "unit": "%",
+        "year": 2035.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 17"
+      },
+      {
+        "metric_name": "Energy Intensity",
+        "value": "1.02",
+        "unit": "MWh/ton of product produced",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 17"
+      },
+      {
+        "metric_name": "Renewable Electricity Procurement",
+        "value": "681000",
+        "unit": "MWh",
+        "year": 2024.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 17"
+      },
+      {
+        "metric_name": "Energy consumption within the organization",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 43"
+      },
+      {
+        "metric_name": "Energy intensity",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 43"
+      },
+      {
+        "metric_name": "Reduction of energy consumption",
+        "value": null,
+        "unit": null,
+        "year": 2016.0,
+        "category": "Environmental",
+        "source": "ADM-2024-sustainability.pdf - page 43"
+      }
+    ]
+  }
+]
