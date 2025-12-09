@@ -1,82 +1,101 @@
-import logging
+from extraction import text_extraction
+from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
+from prompting import process
+import pandas as pd
+import json
+from pathlib import Path
 
-from IPython import display
-from pydantic import BaseModel, Field
-from rich import print
-from typing import Optional, List
+#Specify which file you want to extract from
+fn = 'Ingredion 2024 Sustainability Report' # Change to report you wish to extract
+file_path = f'sus_reports/{fn}.pdf'
+json_path = f'json_results/{fn}.json'
 
-from docling.datamodel.base_models import InputFormat
-from docling.document_extractor import DocumentExtractor
-
-'''
-class EmissionTarget(BaseModel):
-    scope_name: str = Field(
-        examples=["Scope 1 and 2", "Total Scope 3", "Total Scope 3 FLAG", "Total Scope 3 E&I"]
-    )
-    baseline_year: Optional[int] = Field(default=None, examples=[2015, 2021])
-    total_baseline_emissions: Optional[float] = Field(default=None, examples=[2.1, 55.3])
-    emissions_in_scope_percent: Optional[float] = Field(default=None, examples=[95.6, 71.8])
-    emissions_in_scope_unit: str = Field(default="%", examples=["%"])
-    baseline_emissions_in_scope_of_target: Optional[float] = Field(default=None, examples=[2.0, 39.8])
-    baseline_emissions_in_scope_percent: Optional[float] = Field(default=None, examples=[100.0, 39.5])
-    target_reduction_factor: Optional[float] = Field(default=None, examples=[2.0, 15.7])
-    unit: str = Field(default="million tonnes CO2e", examples=["million tonnes CO2e"])
-
-
-class DecarbonisationLever(BaseModel):
-    lever_name: str = Field(
-        examples=[
-            "Supplier Climate Programme",
-            "Reformulating products",
-            "Regenerative agriculture",
+# Check if extracted Json file exists
+if not Path(json_path).is_file():
+    text, method = text_extraction(file_path)
+    # Split the text based on the most optimal method
+    if method == 'markdown':
+        headers_to_split_on = [
+            ('#', 'Header 1'),
+            ('##', 'Header 2'),
+            ('###', 'Header 3'),
         ]
-    )
-    contribution_percent: float = Field(default=0, examples=[14.0, 13.0])
-    notes: Optional[str] = Field(default=None, examples=["Covers baseline plus growth period to 2030"])
+        markdown_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=headers_to_split_on)
+        docs = markdown_splitter.split_text(text)
 
+        results = process(docs)
+        print(results)
 
-class SummaryNotes(BaseModel):
-    sbti_scope1_2_coverage: Optional[str] = Field(
-        default="Exceeds minimum coverage required by SBTi of 95%",
-        examples=["Exceeds minimum coverage required by SBTi of 95%"],
-    )
-    sbti_scope3_coverage: Optional[str] = Field(
-        default="Exceeds minimum coverage required by SBTi of 67.5%",
-        examples=["Exceeds minimum coverage required by SBTi of 67.5%"],
-    )
-    scaling_innovation_gap_explanation: Optional[str] = Field(
-        default="Gap represents GHG emissions needing new or scaled solutions",
-        examples=["Gap represents GHG emissions needing new or scaled solutions"],
-    )
+    elif method == 'gemini_extraction':
+        print('Using Gemini structured output.')
+        # method will be gemini_structured
+        results = text
+    else:
+        print('Failed')
+        exit(1)
 
+    flattened_data = []
+    for result in results:
+        # Handle both dict (Gemini) and object (LangChain) formats
+        if isinstance(result, dict):
+            title = result.get('title')
+            page_ref = result.get('page_ref')
+            metrics = result.get('metrics', [])
+        else:
+            title = result.title
+            page_ref = result.page_ref
+            metrics = result.metrics
 
-class SustainabilityTargets(BaseModel):
-    company_name: Optional[str] = Field(default=None, examples=["Example Corp"])
-    reporting_year: Optional[int] = Field(default=None, examples=[2023])
-    emission_targets: List[EmissionTarget] = Field(default_factory=list)
-    decarbonisation_levers: List[DecarbonisationLever] = Field(default_factory=list)
-    subtotal_contribution_percent: Optional[float] = Field(default=78.0, examples=[78.0])
-    scaling_innovation_gap_percent: Optional[float] = Field(default=22.0, examples=[22.0])
-    total_contribution_percent: Optional[float] = Field(default=100.0, examples=[100.0])
-    notes: SummaryNotes = Field(default=SummaryNotes())
-'''
+        if not metrics:
+            continue
 
-#file_path = "../../OneDrive/Documents/Rutgers/Fall 2025/Extern Experience I/UnileverTest2024.pdf"
+        for metric in metrics:
+            # Handle both dict and object formats
+            if isinstance(metric, dict):
+                flattened_data.append({
+                    'title': title,
+                    'page_ref': page_ref,
+                    'category': metric.get('category'),
+                    'name': metric.get('metric_name'),
+                    'value': metric.get('value'),
+                    'year': metric.get('year'),
+                    'type': metric.get('metric_type'),
+                    'scope': metric.get('scope'),
+                    'unit': metric.get('unit'),
+                })
+            else:
+                flattened_data.append({
+                    'title': title,
+                    'page_ref': page_ref,
+                    'category': metric.category,
+                    'name': metric.metric_name,
+                    'value': metric.value,
+                    'year': metric.year,
+                    'type': metric.metric_type,
+                    'scope': metric.scope,
+                    'unit': metric.unit,
+                })
 
-file_path = (
-    "https://upload.wikimedia.org/wikipedia/commons/9/9f/Swiss_QR-Bill_example.jpg"
-)
+    # save the flattened results to a directory
+    directory_path = Path('json_results')
+    if not directory_path.is_dir():
+        directory_path.mkdir(parents=True, exist_ok=True)
 
+    with open(json_path, 'w') as json_file:
+        json.dump(flattened_data, json_file, indent=3)
 
-logging.basicConfig(level = logging.INFO)
+    print(f'Saved JSON to {json_path}')
 
-extractor = DocumentExtractor(allowed_formats=[InputFormat.PDF, InputFormat.IMAGE])
+    df = pd.DataFrame(flattened_data)
+    print(df)
+else:
+    print("File Previously Extracted")
+    df = pd.read_json(json_path)
+    print(df)
 
-result = extractor.extract(
-    source = file_path,
-    template = {
-        "bill_no": "string",
-        "total": "float"
-    },
-)
-print(result.pages)
+# convert the df to a csv and save to a directory
+csv_directory_path = Path('csv_results')
+if not csv_directory_path.is_dir():
+    csv_directory_path.mkdir(parents=True, exist_ok=True)
+
+df.to_csv(csv_directory_path / f'{fn}Gemini.csv', index=False)
